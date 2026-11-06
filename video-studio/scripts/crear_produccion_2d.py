@@ -228,7 +228,7 @@ async def generate_narration(scene, config, sem):
                 is_applio = config.get('voice_provider') == 'applio' or config.get('applio_model')
                 base_voice = config.get('voice_base', 'es-CL-LorenzoNeural') if is_applio else config['voice']
                 base_rate = config.get('rate_base', '+18%') if is_applio else config['rate']
-                tts = edge_tts.Communicate(scene['text'], base_voice, rate=base_rate, boundary='WordBoundary')
+                tts = edge_tts.Communicate(scene['text'], base_voice, rate=base_rate, boundary='WordBoundary', proxy=os.environ.get('HTTPS_PROXY') or os.environ.get('https_proxy') or None)
                 with partial.open('wb') as stream:
                     async for chunk in tts.stream():
                         ctype = chunk.get('type')
@@ -367,7 +367,7 @@ async def main():
             if env_path.exists():
                 for line in env_path.read_text(encoding="utf-8").splitlines():
                     if line.startswith("ELEVENLABS_API_KEY="):
-                        key = line.split("=", 1)[1].strip().strip("\"'")
+                        key = line.split("=", 1)[1].strip().strip("\\"'")
                         break
             if key:
                 req = urllib.request.Request("https://api.elevenlabs.io/v1/user/subscription", headers={{"xi-api-key": key}})
@@ -432,16 +432,18 @@ const serveUrl = await bundle({{
 }});
 
 const chromiumOptions = {{gl: 'angle'}};
+// Opcional: usar un Chromium ya instalado en vez de descargar el de Remotion.
+const browserExecutable = process.env.REMOTION_BROWSER_EXECUTABLE || null;
 
 if (stills) {{
-  const composition = await selectComposition({{serveUrl, id: baseId, chromiumOptions}});
+  const composition = await selectComposition({{serveUrl, id: baseId, chromiumOptions, browserExecutable}});
   console.log(`Generando stills de verificación para ${{timeline.scenes.length}} escenas...`);
   for (const scene of timeline.scenes) {{
     const frame = scene.start + Math.floor(scene.frames * 0.67);
     const stillPath = path.join(stillsDir, `${{scene.id}}.png`);
     await renderStill({{
       serveUrl, composition, output: stillPath,
-      frame, imageFormat: 'png', scale: 2/3, chromiumOptions
+      frame, imageFormat: 'png', scale: 2/3, chromiumOptions, browserExecutable
     }});
     console.log(`  ✓ STILL ${{scene.id}} @${{(frame / 30).toFixed(2)}}s`);
   }}
@@ -465,7 +467,7 @@ if (stills) {{
 
   for (const target of targets) {{
     console.log(`\\nRenderizando ${{target.name}} [${{target.label}}] (${{draft ? '720p Borrador' : '1080p Master'}})...`);
-    const composition = await selectComposition({{serveUrl, id: target.id, chromiumOptions}});
+    const composition = await selectComposition({{serveUrl, id: target.id, chromiumOptions, browserExecutable}});
     const final = path.join(renders, target.name);
     const partial = path.join(renders, `partial-${{target.name}}`);
     let progress = -1;
@@ -473,7 +475,7 @@ if (stills) {{
     await renderMedia({{
       serveUrl, composition, outputLocation: partial, codec: 'h264', crf: draft ? 23 : 17,
       pixelFormat: 'yuv420p', audioCodec: 'aac', audioBitrate: '192k',
-      scale: draft ? 2/3 : 1, concurrency: 4, chromiumOptions,
+      scale: draft ? 2/3 : 1, concurrency: 4, chromiumOptions, browserExecutable,
       onProgress: ({{progress: p}}) => {{
         const n = Math.floor(p * 20) * 5;
         if (n !== progress) {{ progress = n; console.log(`RENDER [${{target.label}}] ${{n}}%`); }}
