@@ -438,9 +438,9 @@ const browserExecutable = process.env.REMOTION_BROWSER_EXECUTABLE || null;
 if (stills) {{
   const composition = await selectComposition({{serveUrl, id: baseId, chromiumOptions, browserExecutable}});
   console.log(`Generando stills de verificación para ${{timeline.scenes.length}} escenas...`);
-  for (const scene of timeline.scenes) {{
+  for (const [i, scene] of timeline.scenes.entries()) {{
     const frame = scene.start + Math.floor(scene.frames * 0.67);
-    const stillPath = path.join(stillsDir, `${{scene.id}}.png`);
+    const stillPath = path.join(stillsDir, `${{String(i + 1).padStart(2, '0')}}-${{scene.id}}.png`);
     await renderStill({{
       serveUrl, composition, output: stillPath,
       frame, imageFormat: 'png', scale: 2/3, chromiumOptions, browserExecutable
