@@ -1,25 +1,16 @@
 import React, {useEffect, useState} from 'react';
 import {AbsoluteFill, Audio, Sequence, cancelRender, continueRender, delayRender, staticFile, useCurrentFrame} from 'remotion';
 import timelineData from './timeline.json';
+import shortData from './timeline-short.json';
 import {ArtDefs, Backdrop, Label, back, clamp, ease, mix, wave} from './art';
 import {Graphic} from './scenes';
 
 export const timeline = timelineData;
+export const shortTimeline = shortData;
 type Word = {word: string; start: number; end: number};
 type Scene = {id: string; act: string; chapter: string; palette: string; art: string; text: string; kicker?: string; items?: string[]; sfx?: string; start: number; frames: number; words: Word[]; audio: string};
-const scenes = timeline.scenes as unknown as Scene[];
 const asset = (file: string) => staticFile(file.split('/').pop() || file);
 const CHANNEL = 'CIENCIA EN PANTUFLAS';
-
-/* ── Ducking: la música baja a 0.18 mientras se habla y sube a 0.34 en silencios, intro y cierre ── */
-const speaking = new Uint8Array(timeline.durationInFrames + 1);
-for (const s of scenes) for (const w of s.words) {
-  const a = Math.max(0, Math.floor(s.start + w.start * 30) - 4), b = Math.min(timeline.durationInFrames, Math.ceil(s.start + w.end * 30) + 6);
-  for (let i = a; i < b; i++) speaking[i] = 1;
-}
-const duckCurve = new Float32Array(timeline.durationInFrames + 1);
-{ let v = .34; for (let i = 0; i <= timeline.durationInFrames; i++) { const target = speaking[i] ? .18 : .34; v += (target - v) * (target < v ? .25 : .06); duckCurve[i] = v; } }
-const outroStart = scenes[scenes.length - 1].start;
 
 function Captions({scene, f, horizontal}: {scene: Scene; f: number; horizontal: boolean}) {
   const t = f / 30, words = scene.words || [];
@@ -56,7 +47,7 @@ function Kicker({text, f, x, y, max, size}: {text: string; f: number; x: number;
   </g>;
 }
 
-function Shot({scene, index, horizontal}: {scene: Scene; index: number; horizontal: boolean}) {
+function Shot({scene, index, horizontal, scenes, total}: {scene: Scene; index: number; horizontal: boolean; scenes: Scene[]; total: number}) {
   const f = useCurrentFrame();
   const W = horizontal ? 1280 : 720, H = horizontal ? 720 : 1280;
   const prev = scenes[index - 1], actChange = !prev || prev.act !== scene.act;
@@ -65,7 +56,7 @@ function Shot({scene, index, horizontal}: {scene: Scene; index: number; horizont
   const pan = wave(f, .012, 6) + (1 - clamp(f / 16)) * 60 * dir;
   const cx = horizontal ? 640 : 360, cy = horizontal ? 352 : 800, s = horizontal ? .74 : 1;
   const artT = `translate(${cx + pan} ${cy + wave(f, .014, 5)}) scale(${s * push * mix(.9, 1, enter)}) translate(-360 -800)`;
-  const progress = clamp((scene.start + f) / timeline.durationInFrames);
+  const progress = clamp((scene.start + f) / total);
   const flash = actChange ? 1 - clamp(f / 9) : 0;
   return <AbsoluteFill>
     <svg width={W} height={H} viewBox={`0 0 ${W} ${H}`} style={{position: 'absolute', inset: 0, overflow: 'hidden'}}>
@@ -90,20 +81,37 @@ function Shot({scene, index, horizontal}: {scene: Scene; index: number; horizont
   </AbsoluteFill>;
 }
 
-export const CasaFilm: React.FC<{aspectRatio?: '9:16' | '16:9'}> = ({aspectRatio = '9:16'}) => {
+export function createFilm(data: {durationInFrames: number; scenes: unknown[]}, scoreFile: string) {
+  const scenes = data.scenes as Scene[];
+  const total = data.durationInFrames;
+  /* Ducking: la música baja a 0.18 mientras se habla y sube a 0.34 en silencios, intro y cierre */
+  const speaking = new Uint8Array(total + 1);
+  for (const s of scenes) for (const w of s.words) {
+    const a = Math.max(0, Math.floor(s.start + w.start * 30) - 4), b = Math.min(total, Math.ceil(s.start + w.end * 30) + 6);
+    for (let i = a; i < b; i++) speaking[i] = 1;
+  }
+  const duckCurve = new Float32Array(total + 1);
+  { let v = .34; for (let i = 0; i <= total; i++) { const target = speaking[i] ? .18 : .34; v += (target - v) * (target < v ? .25 : .06); duckCurve[i] = v; } }
+  const outroStart = scenes[scenes.length - 1].start;
+  const Film: React.FC<{aspectRatio?: '9:16' | '16:9'}> = ({aspectRatio = '9:16'}) => {
   const horizontal = aspectRatio === '16:9', [handle] = useState(() => delayRender('Cargando tipografía'));
   useEffect(() => { const font = new FontFace('StudioSans', `url(${asset('UbuntuSans.ttf')})`, {weight: '100 900'}); font.load().then(l => { document.fonts.add(l); continueRender(handle); }).catch(cancelRender); }, [handle]);
   const W = horizontal ? 1280 : 720, H = horizontal ? 720 : 1280;
   return <AbsoluteFill style={{background: '#100c1e', fontFamily: 'StudioSans, sans-serif'}}>
     <div style={{position: 'absolute', width: W, height: H, transform: 'scale(1.5)', transformOrigin: 'top left'}}>
       {scenes.map((scene, i) => <Sequence key={scene.id} from={scene.start} durationInFrames={scene.frames}>
-        <Shot scene={scene} index={i} horizontal={horizontal}/>
+        <Shot scene={scene} index={i} horizontal={horizontal} scenes={scenes} total={total}/>
         <Audio src={asset(scene.audio)} volume={1}/>
         {scene.sfx && (scene.sfx === 'laugh'
           ? <Sequence from={Math.max(0, Math.round(scene.words[scene.words.length - 1].end * 30) - 8)}><Audio src={asset('sfx_laugh.mp3')} volume={.14}/></Sequence>
           : <Audio src={asset(`sfx_${scene.sfx}.mp3`)} volume={scene.sfx === 'whoosh' ? .2 : .22}/>)}
       </Sequence>)}
     </div>
-    <Audio src={asset('score.wav')} volume={(fr) => fr >= outroStart + 10 ? .36 : duckCurve[Math.min(fr, duckCurve.length - 1)]}/>
+    <Audio src={asset(scoreFile)} volume={(fr) => fr >= outroStart + 10 ? .36 : duckCurve[Math.min(fr, duckCurve.length - 1)]}/>
   </AbsoluteFill>;
 };
+  return Film;
+}
+
+export const CasaFilm = createFilm(timeline, 'score.wav');
+export const ShortFilm = createFilm(shortTimeline, 'score-short.wav');

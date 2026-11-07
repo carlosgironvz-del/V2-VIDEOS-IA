@@ -1,0 +1,32 @@
+{
+  "title": "Short · La batería social existe",
+  "channel": "CIENCIA EN PANTUFLAS",
+  "voice": "es-MX-JorgeNeural",
+  "rate": "+15%",
+  "maxSeconds": 178,
+  "scenes": [
+    {"id":"short_hook","act":"Gancho","chapter":"¿SIN PILA?","palette":"neon","art":"disco","kicker":"SIN PILA","text":"¿Por qué después de una fiesta, o de un día lleno de gente, sientes que te quedaste sin pila? No es drama: hay ciencia.","sfx":"whoosh"},
+    {"ref":"battery_intro"},
+    {"ref":"battery_study"},
+    {"ref":"battery_result"},
+    {"ref":"battery_everyone"},
+    {"ref":"battery_why"},
+    {"ref":"battery_week"},
+    {"ref":"noise_intro"},
+    {"ref":"noise_cocktail"},
+    {"ref":"noise_shout"},
+    {"ref":"noise_lights"},
+    {"id":"short_bridge","act":"Estimulación","chapter":"NO A TODOS AL MISMO RITMO","palette":"purple","art":"dial","kicker":"EYSENCK","text":"Pero aunque a todos se nos gasta, no a todos al mismo ritmo. El psicólogo Hans Eysenck propuso que cada cerebro tiene un nivel de activación de base.","sfx":"whoosh"},
+    {"ref":"arousal_volume"},
+    {"ref":"arousal_introvert"},
+    {"ref":"arousal_extrovert"},
+    {"ref":"spectrum"},
+    {"ref":"twist_predict"},
+    {"ref":"twist_train"},
+    {"ref":"tips_battery"},
+    {"id":"short_tip2","act":"Cierre","chapter":"2 · RECARGA ANTES Y DESPUÉS","palette":"cozy","art":"couch","kicker":"TIP 2","text":"Segundo: recarga antes y después. Si vas a convivir mucho, guárdate un rato a solas para llenar la pila."},
+    {"ref":"tips_exit"},
+    {"ref":"tips_balance"},
+    {"id":"short_outro","act":"Outro","chapter":"¿CÓMO ESTÁ TU BATERÍA?","palette":"brand","art":"brand","text":"Esto fue un pedacito del video completo, que ya está en el canal. Suscríbete a Ciencia en Pantuflas, y dime: ¿cómo está tu batería hoy?","minSeconds":7.5,"sfx":"ding"}
+  ]
+}

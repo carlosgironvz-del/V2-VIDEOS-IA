@@ -112,7 +112,7 @@ def copy_sfx():
                                    "-af", "loudnorm=I=-20:TP=-3,afade=t=out:st=2.0:d=0.5", "-ar", "44100", str(dst)])
 
 
-def generate_lofi_score(total_seconds: float):
+def generate_lofi_score(total_seconds: float, name: str = "score.wav"):
     """Lo-fi acogedor a 78 BPM: Rhodes procedural, bajo, bombo suave, hats con swing y crujido de vinilo."""
     sr = 32000
     n = math.ceil((total_seconds + 1) * sr)
@@ -182,14 +182,14 @@ def generate_lofi_score(total_seconds: float):
     out[-fade:] *= np.linspace(1, 0, fade)[:, None]
     out[:int(sr * 1.5)] *= np.linspace(0, 1, int(sr * 1.5))[:, None]
     out = out / max(1e-9, np.max(np.abs(out))) * 0.89
-    raw = HERE / "audio_cache" / "score_raw.wav"
+    raw = HERE / "audio_cache" / f"raw_{name}"
     with wave.open(str(raw), 'wb') as w:
         w.setnchannels(2)
         w.setsampwidth(2)
         w.setframerate(sr)
         w.writeframes((out * 32767).astype(np.int16).tobytes())
-    subprocess.check_call(["ffmpeg", "-v", "error", "-y", "-i", str(raw), "-af", "loudnorm=I=-19:TP=-2", "-ar", "44100", str(PUBLIC / "score.wav")])
-    print(f"Banda sonora lo-fi guardada: {PUBLIC / 'score.wav'} ({total_seconds:.1f}s)")
+    subprocess.check_call(["ffmpeg", "-v", "error", "-y", "-i", str(raw), "-af", "loudnorm=I=-19:TP=-2", "-ar", "44100", str(PUBLIC / name)])
+    print(f"Banda sonora lo-fi guardada: {PUBLIC / name} ({total_seconds:.1f}s)")
 
 
 async def main():

@@ -20,7 +20,7 @@ const require = createRequire(path.join(remotion, 'package.json'));
 const {bundle} = require('@remotion/bundler');
 const {selectComposition, renderMedia, renderStill} = require('@remotion/renderer');
 
-const timeline = JSON.parse(await fs.readFile(path.join(here, 'timeline.json'), 'utf8'));
+const timeline = JSON.parse(await fs.readFile(path.join(here, process.argv.includes('--short') ? 'src/timeline-short.json' : 'timeline.json'), 'utf8'));
 const renders = path.join(here, 'renders');
 const stillsDir = path.join(renders, 'stills');
 await fs.mkdir(stillsDir, {recursive: true});
@@ -30,6 +30,7 @@ const draft = process.argv.includes('--draft');
 const horizontal = process.argv.includes('--horizontal') || process.argv.includes('--aspect=horizontal');
 const bothAspects = process.argv.includes('--both') || process.argv.includes('--aspect=both');
 const baseId = 'casa-vs-salir-de-noche';
+const short = process.argv.includes('--short');
 
 console.log(`[Proyecto: ${baseId}] Compilando bundle Remotion autónomo...`);
 const serveUrl = await bundle({
@@ -51,8 +52,8 @@ const browserExecutable = process.env.REMOTION_BROWSER || (fsSync.existsSync(pre
 
 if (stills) {
   // --stills [--horizontal] [--only=id1,id2]: un fotograma por escena (al 67%) + hoja de contactos
-  const id = horizontal ? `${baseId}-16x9` : baseId;
-  const tag = horizontal ? '16x9' : '9x16';
+  const id = short ? `${baseId}-short` : horizontal ? `${baseId}-16x9` : baseId;
+  const tag = short ? 'short' : horizontal ? '16x9' : '9x16';
   const only = (process.argv.find(a => a.startsWith('--only=')) || '').slice(7).split(',').filter(Boolean);
   const composition = await selectComposition({serveUrl, id, chromiumOptions, browserExecutable});
   const dir = path.join(stillsDir, tag);
@@ -74,7 +75,9 @@ if (stills) {
   }
 } else {
   const targets = [];
-  if (bothAspects) {
+  if (short) {
+    targets.push({ id: `${baseId}-short`, name: draft ? 'short-bateria-social-720p.mp4' : 'short-bateria-social-1080p.mp4', label: 'Short 9:16' });
+  } else if (bothAspects) {
     targets.push({ id: baseId, name: draft ? 'preview-720p.mp4' : 'master-1080p.mp4', label: '9:16 Vertical' });
     targets.push({ id: `${baseId}-16x9`, name: draft ? 'preview-16x9-720p.mp4' : 'master-16x9-1080p.mp4', label: '16:9 Horizontal' });
   } else if (horizontal) {

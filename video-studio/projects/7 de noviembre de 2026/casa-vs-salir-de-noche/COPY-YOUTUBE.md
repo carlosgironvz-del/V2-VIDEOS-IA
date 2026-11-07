@@ -53,4 +53,15 @@ Contenido de divulgación; no sustituye la consulta con un profesional de la sal
 ¿Prefieres tu sofá a la fiesta? No es flojera: es neurociencia 🧠🛋️ Batería social, melatonina y una cuenta secreta que tu cerebro hace sin avisarte. ¿Tú eres de sofá o de fiesta? 👇 #neurociencia #psicologia #introvertidos #bateriasocial #ciencia #curiosidades #JOMO #shorts
 ```
 
-**Nota:** el master vertical dura 7:29. YouTube Shorts acepta hasta 3 minutos, TikTok hasta 10 y los Reels de Instagram suelen limitarse a 3, así que para Shorts conviene recortar un fragmento (por ejemplo, de 2:12 a 2:54, sobre la batería social, o de 4:21 a 5:01, sobre la cuenta secreta).
+**Nota:** el master vertical completo dura 7:29, así que no cabe como Short. Para Shorts está el corte de abajo.
+
+---
+
+## Short listo · "La batería social existe" (2:53, 9:16)
+Archivo: `renders/short-bateria-social-1080p.mp4`
+
+**Título:** La batería social EXISTE (y la ciencia lo comprobó) #shorts
+
+```
+¿Después de una fiesta te quedas sin pila? 🔋 No es drama: un estudio en Finlandia encontró que socializar se siente bien… pero el cansancio llega unas 3 horas después, tanto en introvertidos como en extrovertidos. Más ruido, más luces y más gente la vacían más rápido. ¿Cómo está tu batería hoy? 👇 Video completo en el canal. #bateriasocial #introvertidos #psicologia #neurociencia #ciencia #curiosidades #shorts
+```

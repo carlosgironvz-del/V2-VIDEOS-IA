@@ -1,0 +1,2787 @@
+{
+ "title": "Short · La batería social existe",
+ "channel": "CIENCIA EN PANTUFLAS",
+ "fps": 30,
+ "durationInFrames": 5187,
+ "scenes": [
+  {
+   "id": "short_hook",
+   "act": "Gancho",
+   "chapter": "¿SIN PILA?",
+   "palette": "neon",
+   "art": "disco",
+   "kicker": "SIN PILA",
+   "text": "¿Por qué después de una fiesta, o de un día lleno de gente, sientes que te quedaste sin pila? No es drama: hay ciencia.",
+   "sfx": "whoosh",
+   "frames": 226,
+   "words": [
+    {
+     "word": "Por",
+     "start": 0.093458,
+     "end": 0.245624
+    },
+    {
+     "word": "qué",
+     "start": 0.256541,
+     "end": 0.354374
+    },
+    {
+     "word": "después",
+     "start": 0.365208,
+     "end": 0.713041
+    },
+    {
+     "word": "de",
+     "start": 0.723916,
+     "end": 0.799999
+    },
+    {
+     "word": "una",
+     "start": 0.810875,
+     "end": 0.973916
+    },
+    {
+     "word": "fiesta",
+     "start": 0.984791,
+     "end": 1.365207
+    },
+    {
+     "word": "o",
+     "start": 1.593458,
+     "end": 1.658666
+    },
+    {
+     "word": "de",
+     "start": 1.669583,
+     "end": 1.756541
+    },
+    {
+     "word": "un",
+     "start": 1.767375,
+     "end": 1.897791
+    },
+    {
+     "word": "día",
+     "start": 1.908708,
+     "end": 2.093499
+    },
+    {
+     "word": "lleno",
+     "start": 2.104333,
+     "end": 2.343458
+    },
+    {
+     "word": "de",
+     "start": 2.354333,
+     "end": 2.441291
+    },
+    {
+     "word": "gente",
+     "start": 2.452166,
+     "end": 2.821749
+    },
+    {
+     "word": "sientes",
+     "start": 3.05,
+     "end": 3.430416
+    },
+    {
+     "word": "que",
+     "start": 3.441291,
+     "end": 3.549999
+    },
+    {
+     "word": "te",
+     "start": 3.560875,
+     "end": 3.658708
+    },
+    {
+     "word": "quedaste",
+     "start": 3.669583,
+     "end": 4.060874
+    },
+    {
+     "word": "sin",
+     "start": 4.07175,
+     "end": 4.267416
+    },
+    {
+     "word": "pila",
+     "start": 4.27825,
+     "end": 4.636958
+    },
+    {
+     "word": "No",
+     "start": 5.380416,
+     "end": 5.608666
+    },
+    {
+     "word": "es",
+     "start": 5.619583,
+     "end": 5.749999
+    },
+    {
+     "word": "drama",
+     "start": 5.760875,
+     "end": 6.086958
+    },
+    {
+     "word": "hay",
+     "start": 6.347833,
+     "end": 6.478249
+    },
+    {
+     "word": "ciencia",
+     "start": 6.489125,
+     "end": 6.967375
+    }
+   ],
+   "audio": "short_hook.mp3",
+   "start": 0
+  },
+  {
+   "id": "battery_intro",
+   "act": "Batería social",
+   "chapter": "LA BATERÍA SOCIAL",
+   "palette": "teal",
+   "art": "batteryFull",
+   "kicker": "100%",
+   "text": "Hablemos de la famosa batería social. Suena a meme de internet, pero tiene algo de respaldo científico.",
+   "sfx": "whoosh",
+   "frames": 195,
+   "words": [
+    {
+     "word": "Hablemos",
+     "start": 0.093458,
+     "end": 0.506499
+    },
+    {
+     "word": "de",
+     "start": 0.517375,
+     "end": 0.582583
+    },
+    {
+     "word": "la",
+     "start": 0.593458,
+     "end": 0.680416
+    },
+    {
+     "word": "famosa",
+     "start": 0.691291,
+     "end": 1.049999
+    },
+    {
+     "word": "batería",
+     "start": 1.060875,
+     "end": 1.463041
+    },
+    {
+     "word": "social",
+     "start": 1.473916,
+     "end": 1.919582
+    },
+    {
+     "word": "Suena",
+     "start": 2.663041,
+     "end": 3.043457
+    },
+    {
+     "word": "a",
+     "start": 3.054333,
+     "end": 3.086958
+    },
+    {
+     "word": "meme",
+     "start": 3.097833,
+     "end": 3.315208
+    },
+    {
+     "word": "de",
+     "start": 3.326083,
+     "end": 3.402166
+    },
+    {
+     "word": "internet",
+     "start": 3.413041,
+     "end": 3.858707
+    },
+    {
+     "word": "pero",
+     "start": 4.108708,
+     "end": 4.293499
+    },
+    {
+     "word": "tiene",
+     "start": 4.304333,
+     "end": 4.554333
+    },
+    {
+     "word": "algo",
+     "start": 4.565208,
+     "end": 4.760874
+    },
+    {
+     "word": "de",
+     "start": 4.77175,
+     "end": 4.858708
+    },
+    {
+     "word": "respaldo",
+     "start": 4.869583,
+     "end": 5.282624
+    },
+    {
+     "word": "científico",
+     "start": 5.293458,
+     "end": 5.934749
+    }
+   ],
+   "audio": "battery_intro.mp3",
+   "start": 226
+  },
+  {
+   "id": "battery_study",
+   "act": "Batería social",
+   "chapter": "FINLANDIA, 2017",
+   "palette": "night",
+   "art": "phoneSurvey",
+   "kicker": "2017",
+   "text": "En un estudio de dos mil diecisiete, investigadores en Finlandia siguieron a personas durante días, preguntándoles varias veces al día cómo se sentían.",
+   "frames": 249,
+   "words": [
+    {
+     "word": "En",
+     "start": 0.093458,
+     "end": 0.245624
+    },
+    {
+     "word": "un",
+     "start": 0.256541,
+     "end": 0.365249
+    },
+    {
+     "word": "estudio",
+     "start": 0.376083,
+     "end": 0.756499
+    },
+    {
+     "word": "de",
+     "start": 0.767375,
+     "end": 0.843458
+    },
+    {
+     "word": "dos",
+     "start": 0.854333,
+     "end": 1.039124
+    },
+    {
+     "word": "mil",
+     "start": 1.05,
+     "end": 1.180416
+    },
+    {
+     "word": "diecisiete",
+     "start": 1.191291,
+     "end": 1.756499
+    },
+    {
+     "word": "investigadores",
+     "start": 1.995666,
+     "end": 2.734791
+    },
+    {
+     "word": "en",
+     "start": 2.745666,
+     "end": 2.843499
+    },
+    {
+     "word": "Finlandia",
+     "start": 2.854333,
+     "end": 3.321708
+    },
+    {
+     "word": "siguieron",
+     "start": 3.332625,
+     "end": 3.778291
+    },
+    {
+     "word": "a",
+     "start": 3.789125,
+     "end": 3.832583
+    },
+    {
+     "word": "personas",
+     "start": 3.843458,
+     "end": 4.289124
+    },
+    {
+     "word": "durante",
+     "start": 4.3,
+     "end": 4.582625
+    },
+    {
+     "word": "días",
+     "start": 4.593458,
+     "end": 4.952166
+    },
+    {
+     "word": "preguntándoles",
+     "start": 5.158708,
+     "end": 5.854374
+    },
+    {
+     "word": "varias",
+     "start": 5.865208,
+     "end": 6.169541
+    },
+    {
+     "word": "veces",
+     "start": 6.180416,
+     "end": 6.506499
+    },
+    {
+     "word": "al",
+     "start": 6.517375,
+     "end": 6.626083
+    },
+    {
+     "word": "día",
+     "start": 6.636958,
+     "end": 6.854333
+    },
+    {
+     "word": "cómo",
+     "start": 6.865208,
+     "end": 7.071749
+    },
+    {
+     "word": "se",
+     "start": 7.082625,
+     "end": 7.191333
+    },
+    {
+     "word": "sentían",
+     "start": 7.202166,
+     "end": 7.734791
+    }
+   ],
+   "audio": "battery_study.mp3",
+   "start": 421
+  },
+  {
+   "id": "battery_result",
+   "act": "Batería social",
+   "chapter": "EL CANSANCIO LLEGA DESPUÉS",
+   "palette": "crimson",
+   "art": "batteryDrain",
+   "kicker": "3 HORAS DESPUÉS",
+   "text": "Socializar se sentía bien en el momento. Pero se asociaba con más cansancio unas tres horas después.",
+   "frames": 190,
+   "words": [
+    {
+     "word": "Socializar",
+     "start": 0.093458,
+     "end": 0.723874
+    },
+    {
+     "word": "se",
+     "start": 0.734791,
+     "end": 0.843499
+    },
+    {
+     "word": "sentía",
+     "start": 0.854333,
+     "end": 1.278249
+    },
+    {
+     "word": "bien",
+     "start": 1.289125,
+     "end": 1.495666
+    },
+    {
+     "word": "en",
+     "start": 1.506541,
+     "end": 1.604374
+    },
+    {
+     "word": "el",
+     "start": 1.615208,
+     "end": 1.702166
+    },
+    {
+     "word": "momento",
+     "start": 1.713041,
+     "end": 2.147832
+    },
+    {
+     "word": "Pero",
+     "start": 2.891291,
+     "end": 3.065207
+    },
+    {
+     "word": "se",
+     "start": 3.076083,
+     "end": 3.173916
+    },
+    {
+     "word": "asociaba",
+     "start": 3.184791,
+     "end": 3.630457
+    },
+    {
+     "word": "con",
+     "start": 3.641291,
+     "end": 3.804332
+    },
+    {
+     "word": "más",
+     "start": 3.815208,
+     "end": 3.999999
+    },
+    {
+     "word": "cansancio",
+     "start": 4.010875,
+     "end": 4.532625
+    },
+    {
+     "word": "unas",
+     "start": 4.543458,
+     "end": 4.815208
+    },
+    {
+     "word": "tres",
+     "start": 4.826083,
+     "end": 5.065208
+    },
+    {
+     "word": "horas",
+     "start": 5.076083,
+     "end": 5.293458
+    },
+    {
+     "word": "después",
+     "start": 5.304333,
+     "end": 5.782583
+    }
+   ],
+   "audio": "battery_result.mp3",
+   "start": 670
+  },
+  {
+   "id": "battery_everyone",
+   "act": "Batería social",
+   "chapter": "LE PASA A TODOS",
+   "palette": "purple",
+   "art": "twoBatteries",
+   "text": "Y esto pasaba tanto en introvertidos como en extrovertidos. La batería social no es exclusiva de nadie.",
+   "frames": 197,
+   "words": [
+    {
+     "word": "Y",
+     "start": 0.093458,
+     "end": 0.245624
+    },
+    {
+     "word": "esto",
+     "start": 0.256541,
+     "end": 0.463082
+    },
+    {
+     "word": "pasaba",
+     "start": 0.473916,
+     "end": 0.832624
+    },
+    {
+     "word": "tanto",
+     "start": 0.843458,
+     "end": 1.115208
+    },
+    {
+     "word": "en",
+     "start": 1.126083,
+     "end": 1.180416
+    },
+    {
+     "word": "introvertidos",
+     "start": 1.191291,
+     "end": 1.865207
+    },
+    {
+     "word": "como",
+     "start": 1.876083,
+     "end": 2.082624
+    },
+    {
+     "word": "en",
+     "start": 2.093458,
+     "end": 2.158666
+    },
+    {
+     "word": "extrovertidos",
+     "start": 2.169583,
+     "end": 3.006541
+    },
+    {
+     "word": "La",
+     "start": 3.75,
+     "end": 3.880416
+    },
+    {
+     "word": "batería",
+     "start": 3.891291,
+     "end": 4.271707
+    },
+    {
+     "word": "social",
+     "start": 4.282625,
+     "end": 4.706541
+    },
+    {
+     "word": "no",
+     "start": 4.717375,
+     "end": 4.891291
+    },
+    {
+     "word": "es",
+     "start": 4.902166,
+     "end": 5.032582
+    },
+    {
+     "word": "exclusiva",
+     "start": 5.043458,
+     "end": 5.543458
+    },
+    {
+     "word": "de",
+     "start": 5.554333,
+     "end": 5.652166
+    },
+    {
+     "word": "nadie",
+     "start": 5.663041,
+     "end": 6.010874
+    }
+   ],
+   "audio": "battery_everyone.mp3",
+   "start": 860
+  },
+  {
+   "id": "battery_why",
+   "act": "Batería social",
+   "chapter": "CONVIVIR ES TRABAJO",
+   "palette": "teal",
+   "art": "brainGears",
+   "text": "¿Por qué cansa? Porque convivir es trabajo mental: leer caras, interpretar tonos, pensar qué decir, y cuidar cómo te ves.",
+   "frames": 238,
+   "words": [
+    {
+     "word": "Por",
+     "start": 0.093458,
+     "end": 0.234749
+    },
+    {
+     "word": "qué",
+     "start": 0.245666,
+     "end": 0.354374
+    },
+    {
+     "word": "cansa",
+     "start": 0.365208,
+     "end": 0.778249
+    },
+    {
+     "word": "Porque",
+     "start": 1.52175,
+     "end": 1.77175
+    },
+    {
+     "word": "convivir",
+     "start": 1.782625,
+     "end": 2.173916
+    },
+    {
+     "word": "es",
+     "start": 2.184791,
+     "end": 2.282624
+    },
+    {
+     "word": "trabajo",
+     "start": 2.293458,
+     "end": 2.630416
+    },
+    {
+     "word": "mental",
+     "start": 2.641291,
+     "end": 3.021707
+    },
+    {
+     "word": "leer",
+     "start": 3.282625,
+     "end": 3.510875
+    },
+    {
+     "word": "caras",
+     "start": 3.52175,
+     "end": 3.902166
+    },
+    {
+     "word": "interpretar",
+     "start": 4.086958,
+     "end": 4.652166
+    },
+    {
+     "word": "tonos",
+     "start": 4.663041,
+     "end": 5.043457
+    },
+    {
+     "word": "pensar",
+     "start": 5.25,
+     "end": 5.597833
+    },
+    {
+     "word": "qué",
+     "start": 5.608708,
+     "end": 5.695666
+    },
+    {
+     "word": "decir",
+     "start": 5.706541,
+     "end": 6.032624
+    },
+    {
+     "word": "y",
+     "start": 6.27175,
+     "end": 6.326083
+    },
+    {
+     "word": "cuidar",
+     "start": 6.336958,
+     "end": 6.684791
+    },
+    {
+     "word": "cómo",
+     "start": 6.695666,
+     "end": 6.913041
+    },
+    {
+     "word": "te",
+     "start": 6.923916,
+     "end": 7.010874
+    },
+    {
+     "word": "ves",
+     "start": 7.02175,
+     "end": 7.380458
+    }
+   ],
+   "audio": "battery_why.mp3",
+   "start": 1057
+  },
+  {
+   "id": "battery_week",
+   "act": "Batería social",
+   "chapter": "LA PILA DEL VIERNES",
+   "palette": "crimson",
+   "art": "calendar",
+   "kicker": "PILA EN ROJO",
+   "text": "Así que si de lunes a viernes ya socializaste en el trabajo o en la escuela, el viernes en la noche llegas con la pila en rojo.",
+   "frames": 204,
+   "words": [
+    {
+     "word": "Así",
+     "start": 0.093458,
+     "end": 0.365208
+    },
+    {
+     "word": "que",
+     "start": 0.376083,
+     "end": 0.473916
+    },
+    {
+     "word": "si",
+     "start": 0.484791,
+     "end": 0.604374
+    },
+    {
+     "word": "de",
+     "start": 0.615208,
+     "end": 0.702166
+    },
+    {
+     "word": "lunes",
+     "start": 0.713041,
+     "end": 1.006499
+    },
+    {
+     "word": "a",
+     "start": 1.017375,
+     "end": 1.060833
+    },
+    {
+     "word": "viernes",
+     "start": 1.07175,
+     "end": 1.484791
+    },
+    {
+     "word": "ya",
+     "start": 1.495666,
+     "end": 1.615249
+    },
+    {
+     "word": "socializaste",
+     "start": 1.626083,
+     "end": 2.289124
+    },
+    {
+     "word": "en",
+     "start": 2.3,
+     "end": 2.365208
+    },
+    {
+     "word": "el",
+     "start": 2.376083,
+     "end": 2.473916
+    },
+    {
+     "word": "trabajo",
+     "start": 2.484791,
+     "end": 2.941332
+    },
+    {
+     "word": "o",
+     "start": 2.952166,
+     "end": 3.071749
+    },
+    {
+     "word": "en",
+     "start": 3.082625,
+     "end": 3.158708
+    },
+    {
+     "word": "la",
+     "start": 3.169583,
+     "end": 3.223916
+    },
+    {
+     "word": "escuela",
+     "start": 3.234791,
+     "end": 3.626082
+    },
+    {
+     "word": "el",
+     "start": 3.876083,
+     "end": 4.028249
+    },
+    {
+     "word": "viernes",
+     "start": 4.039125,
+     "end": 4.419541
+    },
+    {
+     "word": "en",
+     "start": 4.430416,
+     "end": 4.517374
+    },
+    {
+     "word": "la",
+     "start": 4.52825,
+     "end": 4.604333
+    },
+    {
+     "word": "noche",
+     "start": 4.615208,
+     "end": 4.897833
+    },
+    {
+     "word": "llegas",
+     "start": 4.908708,
+     "end": 5.256541
+    },
+    {
+     "word": "con",
+     "start": 5.267375,
+     "end": 5.408666
+    },
+    {
+     "word": "la",
+     "start": 5.419583,
+     "end": 5.506541
+    },
+    {
+     "word": "pila",
+     "start": 5.517375,
+     "end": 5.77825
+    },
+    {
+     "word": "en",
+     "start": 5.789125,
+     "end": 5.876083
+    },
+    {
+     "word": "rojo",
+     "start": 5.886958,
+     "end": 6.223916
+    }
+   ],
+   "audio": "battery_week.mp3",
+   "start": 1295
+  },
+  {
+   "id": "noise_intro",
+   "act": "Ruido",
+   "chapter": "MÁS DE 100 DECIBELES",
+   "palette": "neon",
+   "art": "speakerLoud",
+   "kicker": "+100 dB",
+   "text": "Y luego está el lugar. Un antro o un concierto pueden superar fácilmente los cien decibeles.",
+   "sfx": "whoosh",
+   "frames": 176,
+   "words": [
+    {
+     "word": "Y",
+     "start": 0.093458,
+     "end": 0.213041
+    },
+    {
+     "word": "luego",
+     "start": 0.223916,
+     "end": 0.473916
+    },
+    {
+     "word": "está",
+     "start": 0.484791,
+     "end": 0.680457
+    },
+    {
+     "word": "el",
+     "start": 0.691291,
+     "end": 0.745624
+    },
+    {
+     "word": "lugar",
+     "start": 0.756541,
+     "end": 1.136957
+    },
+    {
+     "word": "Un",
+     "start": 1.891291,
+     "end": 2.032582
+    },
+    {
+     "word": "antro",
+     "start": 2.043458,
+     "end": 2.380416
+    },
+    {
+     "word": "o",
+     "start": 2.391291,
+     "end": 2.434749
+    },
+    {
+     "word": "un",
+     "start": 2.445666,
+     "end": 2.565249
+    },
+    {
+     "word": "concierto",
+     "start": 2.576083,
+     "end": 3.065208
+    },
+    {
+     "word": "pueden",
+     "start": 3.076083,
+     "end": 3.347833
+    },
+    {
+     "word": "superar",
+     "start": 3.358708,
+     "end": 3.739124
+    },
+    {
+     "word": "fácilmente",
+     "start": 3.75,
+     "end": 4.293458
+    },
+    {
+     "word": "los",
+     "start": 4.304333,
+     "end": 4.423916
+    },
+    {
+     "word": "cien",
+     "start": 4.434791,
+     "end": 4.630457
+    },
+    {
+     "word": "decibeles",
+     "start": 4.641291,
+     "end": 5.293457
+    }
+   ],
+   "audio": "noise_intro.mp3",
+   "start": 1499
+  },
+  {
+   "id": "noise_cocktail",
+   "act": "Ruido",
+   "chapter": "EL EFECTO COCTEL",
+   "palette": "teal",
+   "art": "ear",
+   "kicker": "EFECTO COCTEL",
+   "text": "Ahí tu cerebro hace el famoso efecto coctel: filtrar una sola voz entre cientos de sonidos. Y eso cuesta esfuerzo.",
+   "frames": 214,
+   "words": [
+    {
+     "word": "Ahí",
+     "start": 0.093458,
+     "end": 0.321708
+    },
+    {
+     "word": "tu",
+     "start": 0.332625,
+     "end": 0.430458
+    },
+    {
+     "word": "cerebro",
+     "start": 0.441291,
+     "end": 0.832582
+    },
+    {
+     "word": "hace",
+     "start": 0.843458,
+     "end": 1.028249
+    },
+    {
+     "word": "el",
+     "start": 1.039125,
+     "end": 1.104333
+    },
+    {
+     "word": "famoso",
+     "start": 1.115208,
+     "end": 1.463041
+    },
+    {
+     "word": "efecto",
+     "start": 1.473916,
+     "end": 1.789124
+    },
+    {
+     "word": "coctel",
+     "start": 1.8,
+     "end": 2.158708
+    },
+    {
+     "word": "filtrar",
+     "start": 2.386958,
+     "end": 2.756541
+    },
+    {
+     "word": "una",
+     "start": 2.767375,
+     "end": 2.919541
+    },
+    {
+     "word": "sola",
+     "start": 2.930416,
+     "end": 3.191291
+    },
+    {
+     "word": "voz",
+     "start": 3.202166,
+     "end": 3.419541
+    },
+    {
+     "word": "entre",
+     "start": 3.430416,
+     "end": 3.647791
+    },
+    {
+     "word": "cientos",
+     "start": 3.658708,
+     "end": 4.049999
+    },
+    {
+     "word": "de",
+     "start": 4.060875,
+     "end": 4.126083
+    },
+    {
+     "word": "sonidos",
+     "start": 4.136958,
+     "end": 4.691291
+    },
+    {
+     "word": "Y",
+     "start": 5.434791,
+     "end": 5.597832
+    },
+    {
+     "word": "eso",
+     "start": 5.608708,
+     "end": 5.804374
+    },
+    {
+     "word": "cuesta",
+     "start": 5.815208,
+     "end": 6.065208
+    },
+    {
+     "word": "esfuerzo",
+     "start": 6.076083,
+     "end": 6.576083
+    }
+   ],
+   "audio": "noise_cocktail.mp3",
+   "start": 1675
+  },
+  {
+   "id": "noise_shout",
+   "act": "Ruido",
+   "chapter": "¿¡QUÉ!?",
+   "palette": "neon",
+   "art": "shout",
+   "kicker": "¿¡QUÉ!?",
+   "text": "Por eso sales de la fiesta con la garganta raspada, de tanto gritar ¿qué? durante toda la noche.",
+   "sfx": "laugh",
+   "frames": 163,
+   "words": [
+    {
+     "word": "Por",
+     "start": 0.093458,
+     "end": 0.234749
+    },
+    {
+     "word": "eso",
+     "start": 0.245666,
+     "end": 0.419582
+    },
+    {
+     "word": "sales",
+     "start": 0.430416,
+     "end": 0.745624
+    },
+    {
+     "word": "de",
+     "start": 0.756541,
+     "end": 0.821749
+    },
+    {
+     "word": "la",
+     "start": 0.832625,
+     "end": 0.919583
+    },
+    {
+     "word": "fiesta",
+     "start": 0.930416,
+     "end": 1.245624
+    },
+    {
+     "word": "con",
+     "start": 1.256541,
+     "end": 1.386957
+    },
+    {
+     "word": "la",
+     "start": 1.397833,
+     "end": 1.452166
+    },
+    {
+     "word": "garganta",
+     "start": 1.463041,
+     "end": 1.876082
+    },
+    {
+     "word": "raspada",
+     "start": 1.886958,
+     "end": 2.332624
+    },
+    {
+     "word": "de",
+     "start": 2.593458,
+     "end": 2.680416
+    },
+    {
+     "word": "tanto",
+     "start": 2.691291,
+     "end": 2.984749
+    },
+    {
+     "word": "gritar",
+     "start": 2.995666,
+     "end": 3.365249
+    },
+    {
+     "word": "qué",
+     "start": 3.376083,
+     "end": 3.571749
+    },
+    {
+     "word": "durante",
+     "start": 3.789125,
+     "end": 4.126083
+    },
+    {
+     "word": "toda",
+     "start": 4.136958,
+     "end": 4.386958
+    },
+    {
+     "word": "la",
+     "start": 4.397833,
+     "end": 4.484791
+    },
+    {
+     "word": "noche",
+     "start": 4.495666,
+     "end": 4.865249
+    }
+   ],
+   "audio": "noise_shout.mp3",
+   "start": 1889
+  },
+  {
+   "id": "noise_lights",
+   "act": "Ruido",
+   "chapter": "EXAMEN SORPRESA",
+   "palette": "neon",
+   "art": "disco",
+   "text": "Súmale luces que parpadean, gente empujando y filas para el baño. Para un cerebro sensible, es un examen sorpresa de varias horas.",
+   "frames": 243,
+   "words": [
+    {
+     "word": "Súmale",
+     "start": 0.093458,
+     "end": 0.495624
+    },
+    {
+     "word": "luces",
+     "start": 0.506541,
+     "end": 0.843499
+    },
+    {
+     "word": "que",
+     "start": 0.854333,
+     "end": 0.952166
+    },
+    {
+     "word": "parpadean",
+     "start": 0.963041,
+     "end": 1.506499
+    },
+    {
+     "word": "gente",
+     "start": 1.756541,
+     "end": 2.028291
+    },
+    {
+     "word": "empujando",
+     "start": 2.039125,
+     "end": 2.495666
+    },
+    {
+     "word": "y",
+     "start": 2.506541,
+     "end": 2.549999
+    },
+    {
+     "word": "filas",
+     "start": 2.560875,
+     "end": 2.908708
+    },
+    {
+     "word": "para",
+     "start": 2.919583,
+     "end": 3.082624
+    },
+    {
+     "word": "el",
+     "start": 3.093458,
+     "end": 3.158666
+    },
+    {
+     "word": "baño",
+     "start": 3.169583,
+     "end": 3.495666
+    },
+    {
+     "word": "Para",
+     "start": 4.239125,
+     "end": 4.434791
+    },
+    {
+     "word": "un",
+     "start": 4.445666,
+     "end": 4.554374
+    },
+    {
+     "word": "cerebro",
+     "start": 4.565208,
+     "end": 4.891291
+    },
+    {
+     "word": "sensible",
+     "start": 4.902166,
+     "end": 5.347832
+    },
+    {
+     "word": "es",
+     "start": 5.619583,
+     "end": 5.771749
+    },
+    {
+     "word": "un",
+     "start": 5.782625,
+     "end": 5.869583
+    },
+    {
+     "word": "examen",
+     "start": 5.880416,
+     "end": 6.260832
+    },
+    {
+     "word": "sorpresa",
+     "start": 6.27175,
+     "end": 6.706541
+    },
+    {
+     "word": "de",
+     "start": 6.717375,
+     "end": 6.815208
+    },
+    {
+     "word": "varias",
+     "start": 6.826083,
+     "end": 7.141291
+    },
+    {
+     "word": "horas",
+     "start": 7.152166,
+     "end": 7.543457
+    }
+   ],
+   "audio": "noise_lights.mp3",
+   "start": 2052
+  },
+  {
+   "id": "short_bridge",
+   "act": "Estimulación",
+   "chapter": "NO A TODOS AL MISMO RITMO",
+   "palette": "purple",
+   "art": "dial",
+   "kicker": "EYSENCK",
+   "text": "Pero aunque a todos se nos gasta, no a todos al mismo ritmo. El psicólogo Hans Eysenck propuso que cada cerebro tiene un nivel de activación de base.",
+   "sfx": "whoosh",
+   "frames": 251,
+   "words": [
+    {
+     "word": "Pero",
+     "start": 0.093458,
+     "end": 0.267374
+    },
+    {
+     "word": "aunque",
+     "start": 0.27825,
+     "end": 0.484791
+    },
+    {
+     "word": "a",
+     "start": 0.495666,
+     "end": 0.528291
+    },
+    {
+     "word": "todos",
+     "start": 0.539125,
+     "end": 0.82175
+    },
+    {
+     "word": "se",
+     "start": 0.832625,
+     "end": 0.908708
+    },
+    {
+     "word": "nos",
+     "start": 0.919583,
+     "end": 1.060874
+    },
+    {
+     "word": "gasta",
+     "start": 1.07175,
+     "end": 1.386958
+    },
+    {
+     "word": "no",
+     "start": 1.658708,
+     "end": 1.810874
+    },
+    {
+     "word": "a",
+     "start": 1.82175,
+     "end": 1.876083
+    },
+    {
+     "word": "todos",
+     "start": 1.886958,
+     "end": 2.234791
+    },
+    {
+     "word": "al",
+     "start": 2.245666,
+     "end": 2.354374
+    },
+    {
+     "word": "mismo",
+     "start": 2.365208,
+     "end": 2.680416
+    },
+    {
+     "word": "ritmo",
+     "start": 2.691291,
+     "end": 3.060874
+    },
+    {
+     "word": "El",
+     "start": 3.804333,
+     "end": 3.956499
+    },
+    {
+     "word": "psicólogo",
+     "start": 3.967375,
+     "end": 4.413041
+    },
+    {
+     "word": "Hans",
+     "start": 4.423916,
+     "end": 4.673916
+    },
+    {
+     "word": "Eysenck",
+     "start": 4.684791,
+     "end": 4.978249
+    },
+    {
+     "word": "propuso",
+     "start": 4.989125,
+     "end": 5.380416
+    },
+    {
+     "word": "que",
+     "start": 5.391291,
+     "end": 5.510874
+    },
+    {
+     "word": "cada",
+     "start": 5.52175,
+     "end": 5.760875
+    },
+    {
+     "word": "cerebro",
+     "start": 5.77175,
+     "end": 6.152166
+    },
+    {
+     "word": "tiene",
+     "start": 6.163041,
+     "end": 6.413041
+    },
+    {
+     "word": "un",
+     "start": 6.423916,
+     "end": 6.521749
+    },
+    {
+     "word": "nivel",
+     "start": 6.532625,
+     "end": 6.782625
+    },
+    {
+     "word": "de",
+     "start": 6.793458,
+     "end": 6.847791
+    },
+    {
+     "word": "activación",
+     "start": 6.858708,
+     "end": 7.369583
+    },
+    {
+     "word": "de",
+     "start": 7.380416,
+     "end": 7.456499
+    },
+    {
+     "word": "base",
+     "start": 7.467375,
+     "end": 7.793458
+    }
+   ],
+   "audio": "short_bridge.mp3",
+   "start": 2295
+  },
+  {
+   "id": "arousal_volume",
+   "act": "Estimulación",
+   "chapter": "UNA BOCINA INTERNA",
+   "palette": "teal",
+   "art": "speakerSoft",
+   "text": "Piénsalo como el volumen de una bocina interna. Hay cerebros que ya vienen con el volumen un poco alto desde fábrica.",
+   "frames": 204,
+   "words": [
+    {
+     "word": "Piénsalo",
+     "start": 0.093458,
+     "end": 0.506499
+    },
+    {
+     "word": "como",
+     "start": 0.517375,
+     "end": 0.702166
+    },
+    {
+     "word": "el",
+     "start": 0.713041,
+     "end": 0.767374
+    },
+    {
+     "word": "volumen",
+     "start": 0.77825,
+     "end": 1.147833
+    },
+    {
+     "word": "de",
+     "start": 1.158708,
+     "end": 1.245666
+    },
+    {
+     "word": "una",
+     "start": 1.256541,
+     "end": 1.419582
+    },
+    {
+     "word": "bocina",
+     "start": 1.430416,
+     "end": 1.778249
+    },
+    {
+     "word": "interna",
+     "start": 1.789125,
+     "end": 2.27825
+    },
+    {
+     "word": "Hay",
+     "start": 3.02175,
+     "end": 3.163041
+    },
+    {
+     "word": "cerebros",
+     "start": 3.173916,
+     "end": 3.608707
+    },
+    {
+     "word": "que",
+     "start": 3.619583,
+     "end": 3.717416
+    },
+    {
+     "word": "ya",
+     "start": 3.72825,
+     "end": 3.869541
+    },
+    {
+     "word": "vienen",
+     "start": 3.880416,
+     "end": 4.163041
+    },
+    {
+     "word": "con",
+     "start": 4.173916,
+     "end": 4.326082
+    },
+    {
+     "word": "el",
+     "start": 4.336958,
+     "end": 4.423916
+    },
+    {
+     "word": "volumen",
+     "start": 4.434791,
+     "end": 4.793499
+    },
+    {
+     "word": "un",
+     "start": 4.804333,
+     "end": 4.923916
+    },
+    {
+     "word": "poco",
+     "start": 4.934791,
+     "end": 5.228249
+    },
+    {
+     "word": "alto",
+     "start": 5.239125,
+     "end": 5.47825
+    },
+    {
+     "word": "desde",
+     "start": 5.489125,
+     "end": 5.72825
+    },
+    {
+     "word": "fábrica",
+     "start": 5.739125,
+     "end": 6.217375
+    }
+   ],
+   "audio": "arousal_volume.mp3",
+   "start": 2546
+  },
+  {
+   "id": "arousal_introvert",
+   "act": "Estimulación",
+   "chapter": "CEREBRO SATURADO",
+   "palette": "crimson",
+   "art": "brainHot",
+   "kicker": "SOBRECARGA",
+   "text": "Según esa idea, a las personas más introvertidas un poco de estímulo extra les basta. Más ruido, más gente, y el sistema se satura.",
+   "frames": 260,
+   "words": [
+    {
+     "word": "Según",
+     "start": 0.093458,
+     "end": 0.463041
+    },
+    {
+     "word": "esa",
+     "start": 0.473916,
+     "end": 0.647832
+    },
+    {
+     "word": "idea",
+     "start": 0.658708,
+     "end": 0.952166
+    },
+    {
+     "word": "a",
+     "start": 1.202166,
+     "end": 1.289124
+    },
+    {
+     "word": "las",
+     "start": 1.3,
+     "end": 1.473916
+    },
+    {
+     "word": "personas",
+     "start": 1.484791,
+     "end": 1.930457
+    },
+    {
+     "word": "más",
+     "start": 1.941291,
+     "end": 2.126082
+    },
+    {
+     "word": "introvertidas",
+     "start": 2.136958,
+     "end": 2.799999
+    },
+    {
+     "word": "un",
+     "start": 2.810875,
+     "end": 2.930458
+    },
+    {
+     "word": "poco",
+     "start": 2.941291,
+     "end": 3.191291
+    },
+    {
+     "word": "de",
+     "start": 3.202166,
+     "end": 3.289124
+    },
+    {
+     "word": "estímulo",
+     "start": 3.3,
+     "end": 3.756541
+    },
+    {
+     "word": "extra",
+     "start": 3.767375,
+     "end": 4.05
+    },
+    {
+     "word": "les",
+     "start": 4.060875,
+     "end": 4.223916
+    },
+    {
+     "word": "basta",
+     "start": 4.234791,
+     "end": 4.593499
+    },
+    {
+     "word": "Más",
+     "start": 5.336958,
+     "end": 5.619583
+    },
+    {
+     "word": "ruido",
+     "start": 5.630416,
+     "end": 5.945624
+    },
+    {
+     "word": "más",
+     "start": 6.173916,
+     "end": 6.358707
+    },
+    {
+     "word": "gente",
+     "start": 6.369583,
+     "end": 6.728291
+    },
+    {
+     "word": "y",
+     "start": 6.945666,
+     "end": 7.021749
+    },
+    {
+     "word": "el",
+     "start": 7.032625,
+     "end": 7.119583
+    },
+    {
+     "word": "sistema",
+     "start": 7.130416,
+     "end": 7.521707
+    },
+    {
+     "word": "se",
+     "start": 7.532625,
+     "end": 7.652208
+    },
+    {
+     "word": "satura",
+     "start": 7.663041,
+     "end": 8.108707
+    }
+   ],
+   "audio": "arousal_introvert.mp3",
+   "start": 2750
+  },
+  {
+   "id": "arousal_extrovert",
+   "act": "Estimulación",
+   "chapter": "EL EXTROVERTIDO RECARGA",
+   "palette": "neon",
+   "art": "party",
+   "text": "Las personas extrovertidas, en cambio, buscarían más estímulo para llegar a su punto ideal. Por eso la fiesta las recarga en vez de agotarlas.",
+   "frames": 256,
+   "words": [
+    {
+     "word": "Las",
+     "start": 0.093458,
+     "end": 0.289124
+    },
+    {
+     "word": "personas",
+     "start": 0.3,
+     "end": 0.723916
+    },
+    {
+     "word": "extrovertidas",
+     "start": 0.734791,
+     "end": 1.430457
+    },
+    {
+     "word": "en",
+     "start": 1.604333,
+     "end": 1.745624
+    },
+    {
+     "word": "cambio",
+     "start": 1.756541,
+     "end": 2.136957
+    },
+    {
+     "word": "buscarían",
+     "start": 2.419583,
+     "end": 2.897833
+    },
+    {
+     "word": "más",
+     "start": 2.908708,
+     "end": 3.093499
+    },
+    {
+     "word": "estímulo",
+     "start": 3.104333,
+     "end": 3.560874
+    },
+    {
+     "word": "para",
+     "start": 3.57175,
+     "end": 3.745666
+    },
+    {
+     "word": "llegar",
+     "start": 3.756541,
+     "end": 4.049999
+    },
+    {
+     "word": "a",
+     "start": 4.060875,
+     "end": 4.0935
+    },
+    {
+     "word": "su",
+     "start": 4.104333,
+     "end": 4.234749
+    },
+    {
+     "word": "punto",
+     "start": 4.245666,
+     "end": 4.517416
+    },
+    {
+     "word": "ideal",
+     "start": 4.52825,
+     "end": 4.908666
+    },
+    {
+     "word": "Por",
+     "start": 5.652166,
+     "end": 5.793457
+    },
+    {
+     "word": "eso",
+     "start": 5.804333,
+     "end": 5.978249
+    },
+    {
+     "word": "la",
+     "start": 5.989125,
+     "end": 6.076083
+    },
+    {
+     "word": "fiesta",
+     "start": 6.086958,
+     "end": 6.402166
+    },
+    {
+     "word": "las",
+     "start": 6.413041,
+     "end": 6.565207
+    },
+    {
+     "word": "recarga",
+     "start": 6.576083,
+     "end": 6.945666
+    },
+    {
+     "word": "en",
+     "start": 6.956541,
+     "end": 7.065249
+    },
+    {
+     "word": "vez",
+     "start": 7.076083,
+     "end": 7.260874
+    },
+    {
+     "word": "de",
+     "start": 7.27175,
+     "end": 7.326083
+    },
+    {
+     "word": "agotarlas",
+     "start": 7.336958,
+     "end": 7.978249
+    }
+   ],
+   "audio": "arousal_extrovert.mp3",
+   "start": 3010
+  },
+  {
+   "id": "spectrum",
+   "act": "Estimulación",
+   "chapter": "UN ESPECTRO, NO DOS CAJAS",
+   "palette": "purple",
+   "art": "spectrum",
+   "text": "Además, casi nadie es introvertido o extrovertido puro. La mayoría estamos en algún punto intermedio, y nos movemos según el día.",
+   "sfx": "whoosh",
+   "frames": 246,
+   "words": [
+    {
+     "word": "Además",
+     "start": 0.093458,
+     "end": 0.593458
+    },
+    {
+     "word": "casi",
+     "start": 0.832625,
+     "end": 1.082625
+    },
+    {
+     "word": "nadie",
+     "start": 1.093458,
+     "end": 1.376083
+    },
+    {
+     "word": "es",
+     "start": 1.386958,
+     "end": 1.506541
+    },
+    {
+     "word": "introvertido",
+     "start": 1.517375,
+     "end": 2.202166
+    },
+    {
+     "word": "o",
+     "start": 2.213041,
+     "end": 2.321749
+    },
+    {
+     "word": "extrovertido",
+     "start": 2.332625,
+     "end": 2.973916
+    },
+    {
+     "word": "puro",
+     "start": 2.984791,
+     "end": 3.310874
+    },
+    {
+     "word": "La",
+     "start": 4.054333,
+     "end": 4.184749
+    },
+    {
+     "word": "mayoría",
+     "start": 4.195666,
+     "end": 4.565249
+    },
+    {
+     "word": "estamos",
+     "start": 4.576083,
+     "end": 4.934791
+    },
+    {
+     "word": "en",
+     "start": 4.945666,
+     "end": 5.032624
+    },
+    {
+     "word": "algún",
+     "start": 5.043458,
+     "end": 5.304333
+    },
+    {
+     "word": "punto",
+     "start": 5.315208,
+     "end": 5.543458
+    },
+    {
+     "word": "intermedio",
+     "start": 5.554333,
+     "end": 6.108666
+    },
+    {
+     "word": "y",
+     "start": 6.326083,
+     "end": 6.402166
+    },
+    {
+     "word": "nos",
+     "start": 6.413041,
+     "end": 6.597832
+    },
+    {
+     "word": "movemos",
+     "start": 6.608708,
+     "end": 6.945666
+    },
+    {
+     "word": "según",
+     "start": 6.956541,
+     "end": 7.217416
+    },
+    {
+     "word": "el",
+     "start": 7.22825,
+     "end": 7.315208
+    },
+    {
+     "word": "día",
+     "start": 7.326083,
+     "end": 7.630416
+    }
+   ],
+   "audio": "spectrum.mp3",
+   "start": 3266
+  },
+  {
+   "id": "twist_predict",
+   "act": "El giro",
+   "chapter": "PERO OJO…",
+   "palette": "crimson",
+   "art": "graph",
+   "kicker": "PERO OJO",
+   "text": "Ahora, el giro. Hay estudios que muestran que solemos subestimar lo bien que la vamos a pasar al convivir.",
+   "sfx": "whoosh",
+   "frames": 195,
+   "words": [
+    {
+     "word": "Ahora",
+     "start": 0.093458,
+     "end": 0.539124
+    },
+    {
+     "word": "el",
+     "start": 0.756541,
+     "end": 0.897832
+    },
+    {
+     "word": "giro",
+     "start": 0.908708,
+     "end": 1.289124
+    },
+    {
+     "word": "Hay",
+     "start": 2.043458,
+     "end": 2.228249
+    },
+    {
+     "word": "estudios",
+     "start": 2.239125,
+     "end": 2.673916
+    },
+    {
+     "word": "que",
+     "start": 2.684791,
+     "end": 2.771749
+    },
+    {
+     "word": "muestran",
+     "start": 2.782625,
+     "end": 3.163041
+    },
+    {
+     "word": "que",
+     "start": 3.173916,
+     "end": 3.271749
+    },
+    {
+     "word": "solemos",
+     "start": 3.282625,
+     "end": 3.630458
+    },
+    {
+     "word": "subestimar",
+     "start": 3.641291,
+     "end": 4.141291
+    },
+    {
+     "word": "lo",
+     "start": 4.152166,
+     "end": 4.228249
+    },
+    {
+     "word": "bien",
+     "start": 4.239125,
+     "end": 4.467375
+    },
+    {
+     "word": "que",
+     "start": 4.47825,
+     "end": 4.586958
+    },
+    {
+     "word": "la",
+     "start": 4.597833,
+     "end": 4.673916
+    },
+    {
+     "word": "vamos",
+     "start": 4.684791,
+     "end": 4.967416
+    },
+    {
+     "word": "a",
+     "start": 4.97825,
+     "end": 5.032583
+    },
+    {
+     "word": "pasar",
+     "start": 5.043458,
+     "end": 5.347791
+    },
+    {
+     "word": "al",
+     "start": 5.358708,
+     "end": 5.434791
+    },
+    {
+     "word": "convivir",
+     "start": 5.445666,
+     "end": 5.945666
+    }
+   ],
+   "audio": "twist_predict.mp3",
+   "start": 3512
+  },
+  {
+   "id": "twist_train",
+   "act": "El giro",
+   "chapter": "EL EXPERIMENTO DEL TREN",
+   "palette": "teal",
+   "art": "train",
+   "text": "En un experimento en Chicago, les pidieron a pasajeros del tren platicar con un desconocido. Esperaban pasarla mal, y terminaron más contentos.",
+   "frames": 266,
+   "words": [
+    {
+     "word": "En",
+     "start": 0.093458,
+     "end": 0.245624
+    },
+    {
+     "word": "un",
+     "start": 0.256541,
+     "end": 0.354374
+    },
+    {
+     "word": "experimento",
+     "start": 0.365208,
+     "end": 0.930416
+    },
+    {
+     "word": "en",
+     "start": 0.941291,
+     "end": 1.006499
+    },
+    {
+     "word": "Chicago",
+     "start": 1.017375,
+     "end": 1.441291
+    },
+    {
+     "word": "les",
+     "start": 1.745666,
+     "end": 1.876082
+    },
+    {
+     "word": "pidieron",
+     "start": 1.886958,
+     "end": 2.256541
+    },
+    {
+     "word": "a",
+     "start": 2.267375,
+     "end": 2.310833
+    },
+    {
+     "word": "pasajeros",
+     "start": 2.32175,
+     "end": 2.8435
+    },
+    {
+     "word": "del",
+     "start": 2.854333,
+     "end": 2.995624
+    },
+    {
+     "word": "tren",
+     "start": 3.006541,
+     "end": 3.191332
+    },
+    {
+     "word": "platicar",
+     "start": 3.202166,
+     "end": 3.669541
+    },
+    {
+     "word": "con",
+     "start": 3.680416,
+     "end": 3.854332
+    },
+    {
+     "word": "un",
+     "start": 3.865208,
+     "end": 3.973916
+    },
+    {
+     "word": "desconocido",
+     "start": 3.984791,
+     "end": 4.713041
+    },
+    {
+     "word": "Esperaban",
+     "start": 5.456541,
+     "end": 5.956541
+    },
+    {
+     "word": "pasarla",
+     "start": 5.967375,
+     "end": 6.347791
+    },
+    {
+     "word": "mal",
+     "start": 6.358708,
+     "end": 6.608708
+    },
+    {
+     "word": "y",
+     "start": 6.847833,
+     "end": 6.913041
+    },
+    {
+     "word": "terminaron",
+     "start": 6.923916,
+     "end": 7.445666
+    },
+    {
+     "word": "más",
+     "start": 7.456541,
+     "end": 7.652207
+    },
+    {
+     "word": "contentos",
+     "start": 7.663041,
+     "end": 8.304332
+    }
+   ],
+   "audio": "twist_train.mp3",
+   "start": 3707
+  },
+  {
+   "id": "tips_battery",
+   "act": "Cierre",
+   "chapter": "1 · PLANES A TU MEDIDA",
+   "palette": "teal",
+   "art": "tipBattery",
+   "kicker": "TIP 1",
+   "text": "Entonces, ¿qué hacer? Primero: elige planes que vayan con tu batería. Un café, una cena chica, o una película en casa de alguien.",
+   "sfx": "whoosh",
+   "frames": 280,
+   "words": [
+    {
+     "word": "Entonces",
+     "start": 0.093458,
+     "end": 0.713041
+    },
+    {
+     "word": "qué",
+     "start": 0.908708,
+     "end": 1.028291
+    },
+    {
+     "word": "hacer",
+     "start": 1.039125,
+     "end": 1.408708
+    },
+    {
+     "word": "Primero",
+     "start": 2.152166,
+     "end": 2.554332
+    },
+    {
+     "word": "elige",
+     "start": 2.793458,
+     "end": 3.141291
+    },
+    {
+     "word": "planes",
+     "start": 3.152166,
+     "end": 3.478249
+    },
+    {
+     "word": "que",
+     "start": 3.489125,
+     "end": 3.586958
+    },
+    {
+     "word": "vayan",
+     "start": 3.597833,
+     "end": 3.891291
+    },
+    {
+     "word": "con",
+     "start": 3.902166,
+     "end": 4.065207
+    },
+    {
+     "word": "tu",
+     "start": 4.076083,
+     "end": 4.163041
+    },
+    {
+     "word": "batería",
+     "start": 4.173916,
+     "end": 4.673916
+    },
+    {
+     "word": "Un",
+     "start": 5.434791,
+     "end": 5.576082
+    },
+    {
+     "word": "café",
+     "start": 5.586958,
+     "end": 5.913041
+    },
+    {
+     "word": "una",
+     "start": 6.163041,
+     "end": 6.304332
+    },
+    {
+     "word": "cena",
+     "start": 6.315208,
+     "end": 6.576083
+    },
+    {
+     "word": "chica",
+     "start": 6.586958,
+     "end": 6.923916
+    },
+    {
+     "word": "o",
+     "start": 7.152166,
+     "end": 7.217374
+    },
+    {
+     "word": "una",
+     "start": 7.22825,
+     "end": 7.434791
+    },
+    {
+     "word": "película",
+     "start": 7.445666,
+     "end": 7.880457
+    },
+    {
+     "word": "en",
+     "start": 7.891291,
+     "end": 7.989124
+    },
+    {
+     "word": "casa",
+     "start": 8.0,
+     "end": 8.260875
+    },
+    {
+     "word": "de",
+     "start": 8.27175,
+     "end": 8.391333
+    },
+    {
+     "word": "alguien",
+     "start": 8.402166,
+     "end": 8.782582
+    }
+   ],
+   "audio": "tips_battery.mp3",
+   "start": 3973
+  },
+  {
+   "id": "short_tip2",
+   "act": "Cierre",
+   "chapter": "2 · RECARGA ANTES Y DESPUÉS",
+   "palette": "cozy",
+   "art": "couch",
+   "kicker": "TIP 2",
+   "text": "Segundo: recarga antes y después. Si vas a convivir mucho, guárdate un rato a solas para llenar la pila.",
+   "frames": 216,
+   "words": [
+    {
+     "word": "Segundo",
+     "start": 0.093458,
+     "end": 0.604333
+    },
+    {
+     "word": "recarga",
+     "start": 0.843458,
+     "end": 1.278249
+    },
+    {
+     "word": "antes",
+     "start": 1.289125,
+     "end": 1.604333
+    },
+    {
+     "word": "y",
+     "start": 1.615208,
+     "end": 1.658666
+    },
+    {
+     "word": "después",
+     "start": 1.669583,
+     "end": 2.202208
+    },
+    {
+     "word": "Si",
+     "start": 2.945666,
+     "end": 3.152207
+    },
+    {
+     "word": "vas",
+     "start": 3.163041,
+     "end": 3.358707
+    },
+    {
+     "word": "a",
+     "start": 3.369583,
+     "end": 3.413041
+    },
+    {
+     "word": "convivir",
+     "start": 3.423916,
+     "end": 3.836957
+    },
+    {
+     "word": "mucho",
+     "start": 3.847833,
+     "end": 4.206541
+    },
+    {
+     "word": "guárdate",
+     "start": 4.489125,
+     "end": 4.869541
+    },
+    {
+     "word": "un",
+     "start": 4.880416,
+     "end": 4.989124
+    },
+    {
+     "word": "rato",
+     "start": 5.0,
+     "end": 5.239125
+    },
+    {
+     "word": "a",
+     "start": 5.25,
+     "end": 5.27175
+    },
+    {
+     "word": "solas",
+     "start": 5.282625,
+     "end": 5.663041
+    },
+    {
+     "word": "para",
+     "start": 5.673916,
+     "end": 5.847832
+    },
+    {
+     "word": "llenar",
+     "start": 5.858708,
+     "end": 6.163041
+    },
+    {
+     "word": "la",
+     "start": 6.173916,
+     "end": 6.271749
+    },
+    {
+     "word": "pila",
+     "start": 6.282625,
+     "end": 6.630458
+    }
+   ],
+   "audio": "short_tip2.mp3",
+   "start": 4253
+  },
+  {
+   "id": "tips_exit",
+   "act": "Cierre",
+   "chapter": "3 · RETIRADA CON DIGNIDAD",
+   "palette": "purple",
+   "art": "door",
+   "kicker": "TIP 3",
+   "text": "Tercero: date permiso de irte temprano. Llegar, convivir un rato y retirarte con dignidad también cuenta como salir.",
+   "frames": 229,
+   "words": [
+    {
+     "word": "Tercero",
+     "start": 0.093458,
+     "end": 0.560833
+    },
+    {
+     "word": "date",
+     "start": 0.832625,
+     "end": 1.060875
+    },
+    {
+     "word": "permiso",
+     "start": 1.07175,
+     "end": 1.484791
+    },
+    {
+     "word": "de",
+     "start": 1.495666,
+     "end": 1.604374
+    },
+    {
+     "word": "irte",
+     "start": 1.615208,
+     "end": 1.897833
+    },
+    {
+     "word": "temprano",
+     "start": 1.908708,
+     "end": 2.408708
+    },
+    {
+     "word": "Llegar",
+     "start": 3.152166,
+     "end": 3.565207
+    },
+    {
+     "word": "convivir",
+     "start": 3.782625,
+     "end": 4.184791
+    },
+    {
+     "word": "un",
+     "start": 4.195666,
+     "end": 4.293499
+    },
+    {
+     "word": "rato",
+     "start": 4.304333,
+     "end": 4.554333
+    },
+    {
+     "word": "y",
+     "start": 4.565208,
+     "end": 4.619541
+    },
+    {
+     "word": "retirarte",
+     "start": 4.630416,
+     "end": 5.130416
+    },
+    {
+     "word": "con",
+     "start": 5.141291,
+     "end": 5.282582
+    },
+    {
+     "word": "dignidad",
+     "start": 5.293458,
+     "end": 5.739124
+    },
+    {
+     "word": "también",
+     "start": 5.75,
+     "end": 6.119583
+    },
+    {
+     "word": "cuenta",
+     "start": 6.130416,
+     "end": 6.423874
+    },
+    {
+     "word": "como",
+     "start": 6.434791,
+     "end": 6.630457
+    },
+    {
+     "word": "salir",
+     "start": 6.641291,
+     "end": 7.065207
+    }
+   ],
+   "audio": "tips_exit.mp3",
+   "start": 4469
+  },
+  {
+   "id": "tips_balance",
+   "act": "Cierre",
+   "chapter": "4 · CUIDA TU ENERGÍA",
+   "palette": "teal",
+   "art": "balanceHeart",
+   "kicker": "TIP 4",
+   "text": "Y cuarto: quedarte en casa no es un defecto. Es una forma de cuidar tu energía, siempre que no te aleje de las personas que quieres.",
+   "frames": 239,
+   "words": [
+    {
+     "word": "Y",
+     "start": 0.093458,
+     "end": 0.202166
+    },
+    {
+     "word": "cuarto",
+     "start": 0.213041,
+     "end": 0.604332
+    },
+    {
+     "word": "quedarte",
+     "start": 0.843458,
+     "end": 1.202166
+    },
+    {
+     "word": "en",
+     "start": 1.213041,
+     "end": 1.310874
+    },
+    {
+     "word": "casa",
+     "start": 1.32175,
+     "end": 1.626083
+    },
+    {
+     "word": "no",
+     "start": 1.636958,
+     "end": 1.832624
+    },
+    {
+     "word": "es",
+     "start": 1.843458,
+     "end": 1.963041
+    },
+    {
+     "word": "un",
+     "start": 1.973916,
+     "end": 2.060874
+    },
+    {
+     "word": "defecto",
+     "start": 2.07175,
+     "end": 2.495666
+    },
+    {
+     "word": "Es",
+     "start": 3.239125,
+     "end": 3.402166
+    },
+    {
+     "word": "una",
+     "start": 3.413041,
+     "end": 3.554332
+    },
+    {
+     "word": "forma",
+     "start": 3.565208,
+     "end": 3.836958
+    },
+    {
+     "word": "de",
+     "start": 3.847833,
+     "end": 3.934791
+    },
+    {
+     "word": "cuidar",
+     "start": 3.945666,
+     "end": 4.271749
+    },
+    {
+     "word": "tu",
+     "start": 4.282625,
+     "end": 4.347833
+    },
+    {
+     "word": "energía",
+     "start": 4.358708,
+     "end": 4.815249
+    },
+    {
+     "word": "siempre",
+     "start": 5.108708,
+     "end": 5.456541
+    },
+    {
+     "word": "que",
+     "start": 5.467375,
+     "end": 5.576083
+    },
+    {
+     "word": "no",
+     "start": 5.586958,
+     "end": 5.739124
+    },
+    {
+     "word": "te",
+     "start": 5.75,
+     "end": 5.826083
+    },
+    {
+     "word": "aleje",
+     "start": 5.836958,
+     "end": 6.119583
+    },
+    {
+     "word": "de",
+     "start": 6.130416,
+     "end": 6.217374
+    },
+    {
+     "word": "las",
+     "start": 6.22825,
+     "end": 6.358666
+    },
+    {
+     "word": "personas",
+     "start": 6.369583,
+     "end": 6.815249
+    },
+    {
+     "word": "que",
+     "start": 6.826083,
+     "end": 6.934791
+    },
+    {
+     "word": "quieres",
+     "start": 6.945666,
+     "end": 7.413041
+    }
+   ],
+   "audio": "tips_balance.mp3",
+   "start": 4698
+  },
+  {
+   "id": "short_outro",
+   "act": "Outro",
+   "chapter": "¿CÓMO ESTÁ TU BATERÍA?",
+   "palette": "brand",
+   "art": "brand",
+   "text": "Esto fue un pedacito del video completo, que ya está en el canal. Suscríbete a Ciencia en Pantuflas, y dime: ¿cómo está tu batería hoy?",
+   "minSeconds": 7.5,
+   "sfx": "ding",
+   "frames": 250,
+   "words": [
+    {
+     "word": "Esto",
+     "start": 0.093458,
+     "end": 0.376083
+    },
+    {
+     "word": "fue",
+     "start": 0.386958,
+     "end": 0.506541
+    },
+    {
+     "word": "un",
+     "start": 0.517375,
+     "end": 0.604333
+    },
+    {
+     "word": "pedacito",
+     "start": 0.615208,
+     "end": 1.093458
+    },
+    {
+     "word": "del",
+     "start": 1.104333,
+     "end": 1.234749
+    },
+    {
+     "word": "video",
+     "start": 1.245666,
+     "end": 1.517416
+    },
+    {
+     "word": "completo",
+     "start": 1.52825,
+     "end": 2.017375
+    },
+    {
+     "word": "que",
+     "start": 2.245666,
+     "end": 2.343499
+    },
+    {
+     "word": "ya",
+     "start": 2.354333,
+     "end": 2.549999
+    },
+    {
+     "word": "está",
+     "start": 2.560875,
+     "end": 2.8
+    },
+    {
+     "word": "en",
+     "start": 2.810875,
+     "end": 2.886958
+    },
+    {
+     "word": "el",
+     "start": 2.897833,
+     "end": 3.006541
+    },
+    {
+     "word": "canal",
+     "start": 3.017375,
+     "end": 3.376083
+    },
+    {
+     "word": "Suscríbete",
+     "start": 4.119583,
+     "end": 4.706541
+    },
+    {
+     "word": "a",
+     "start": 4.717375,
+     "end": 4.739125
+    },
+    {
+     "word": "Ciencia",
+     "start": 4.75,
+     "end": 5.108708
+    },
+    {
+     "word": "en",
+     "start": 5.119583,
+     "end": 5.184791
+    },
+    {
+     "word": "Pantuflas",
+     "start": 5.195666,
+     "end": 5.749999
+    },
+    {
+     "word": "y",
+     "start": 5.934791,
+     "end": 5.999999
+    },
+    {
+     "word": "dime",
+     "start": 6.010875,
+     "end": 6.2935
+    },
+    {
+     "word": "cómo",
+     "start": 6.52175,
+     "end": 6.717416
+    },
+    {
+     "word": "está",
+     "start": 6.72825,
+     "end": 6.923916
+    },
+    {
+     "word": "tu",
+     "start": 6.934791,
+     "end": 7.043499
+    },
+    {
+     "word": "batería",
+     "start": 7.054333,
+     "end": 7.489124
+    },
+    {
+     "word": "hoy",
+     "start": 7.5,
+     "end": 7.75
+    }
+   ],
+   "audio": "short_outro.mp3",
+   "start": 4937
+  }
+ ]
+}
