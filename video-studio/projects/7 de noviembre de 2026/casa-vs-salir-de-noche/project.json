@@ -1,0 +1,14 @@
+{
+  "id": "casa-vs-salir-de-noche",
+  "title": "¿Por qué prefieres quedarte en casa?",
+  "description": "Ciencia con humor: introversión, batería social, cronotipo, costo-beneficio y JOMO",
+  "created_at": "2026-11-07T03:14:02.468436",
+  "type": "2d-animation",
+  "fps": 30,
+  "resolution": {
+    "width": 1080,
+    "height": 1920
+  },
+  "author": "VideoStudio Agent",
+  "version": "1.0.0"
+}

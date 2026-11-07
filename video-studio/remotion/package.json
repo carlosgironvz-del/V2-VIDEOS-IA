@@ -17,7 +17,8 @@
     "render:napoleon-curiosidades-secretos-2d": "node \"../projects/25 de octubre de 2026/napoleon-curiosidades-secretos-2d/render.mjs\"",
     "render:curiosidades-gatos-2d": "node \"../projects/26 de octubre de 2026/curiosidades-gatos-2d/render.mjs\"",
     "render:curiosidades-pandas-2d": "node \"../projects/26 de octubre de 2026/curiosidades-pandas-2d/render.mjs\"",
-    "render:creador-videos-ia-2d": "node \"../projects/26 de octubre de 2026/creador-videos-ia-2d/render.mjs\""
+    "render:creador-videos-ia-2d": "node \"../projects/26 de octubre de 2026/creador-videos-ia-2d/render.mjs\"",
+    "render:casa-vs-salir-de-noche": "node \"../projects/7 de noviembre de 2026/casa-vs-salir-de-noche/render.mjs\""
   },
   "dependencies": {
     "@remotion/cli": "^4.0.218",
