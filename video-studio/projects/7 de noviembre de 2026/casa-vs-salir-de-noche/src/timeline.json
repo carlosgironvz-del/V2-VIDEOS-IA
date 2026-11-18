@@ -1,6 +1,6 @@
 {
  "title": "¿Por qué prefieres quedarte en casa que salir de noche?",
- "channel": "CIENCIA EN PANTUFLAS",
+ "channel": "LITERAL YO",
  "fps": 30,
  "durationInFrames": 13487,
  "scenes": [
@@ -7178,7 +7178,7 @@
    "chapter": "¿ERES DE SOFÁ O DE FIESTA?",
    "palette": "brand",
    "art": "brand",
-   "text": "Si te gustó, suscríbete a Ciencia en Pantuflas, y cuéntame en los comentarios: ¿tú eres de sofá, o de fiesta?",
+   "text": "Si te gustó, suscríbete a Literal Yo, y cuéntame en los comentarios: ¿tú eres de sofá, o de fiesta?",
    "minSeconds": 7.5,
    "sfx": "ding",
    "start": 13262,
@@ -7201,88 +7201,83 @@
     },
     {
      "word": "suscríbete",
-     "start": 1.006541,
-     "end": 1.549999
+     "start": 0.995666,
+     "end": 1.539124
     },
     {
      "word": "a",
-     "start": 1.560875,
-     "end": 1.582625
+     "start": 1.55,
+     "end": 1.57175
     },
     {
-     "word": "Ciencia",
-     "start": 1.593458,
-     "end": 1.952166
+     "word": "Literal",
+     "start": 1.582625,
+     "end": 1.984791
     },
     {
-     "word": "en",
-     "start": 1.963041,
-     "end": 2.028249
-    },
-    {
-     "word": "Pantuflas",
-     "start": 2.039125,
-     "end": 2.582583
+     "word": "Yo",
+     "start": 1.995666,
+     "end": 2.223916
     },
     {
      "word": "y",
-     "start": 2.77825,
-     "end": 2.865208
+     "start": 2.441291,
+     "end": 2.528249
     },
     {
      "word": "cuéntame",
-     "start": 2.876083,
-     "end": 3.245666
+     "start": 2.539125,
+     "end": 2.908708
     },
     {
      "word": "en",
-     "start": 3.256541,
-     "end": 3.310874
+     "start": 2.919583,
+     "end": 2.973916
     },
     {
      "word": "los",
-     "start": 3.32175,
-     "end": 3.430458
+     "start": 2.984791,
+     "end": 3.093499
     },
     {
      "word": "comentarios",
-     "start": 3.441291,
-     "end": 4.093457
+     "start": 3.104333,
+     "end": 3.756499
     },
     {
      "word": "tú",
-     "start": 4.332625,
-     "end": 4.484791
+     "start": 3.995666,
+     "end": 4.147832
     },
     {
      "word": "eres",
-     "start": 4.495666,
-     "end": 4.691332
+     "start": 4.158708,
+     "end": 4.354374
     },
     {
      "word": "de",
-     "start": 4.702166,
-     "end": 4.767374
+     "start": 4.365208,
+     "end": 4.430416
     },
     {
      "word": "sofá",
-     "start": 4.77825,
-     "end": 5.136958
+     "start": 4.441291,
+     "end": 4.799999
     },
     {
      "word": "o",
-     "start": 5.343458,
-     "end": 5.408666
+     "start": 5.017375,
+     "end": 5.082583
     },
     {
      "word": "de",
-     "start": 5.419583,
-     "end": 5.517416
+     "start": 5.093458,
+     "end": 5.191291
     },
     {
      "word": "fiesta",
-     "start": 5.52825,
-     "end": 5.952166
+     "start": 5.202166,
+     "end": 5.615207
     }
    ],
    "audio": "outro.mp3"

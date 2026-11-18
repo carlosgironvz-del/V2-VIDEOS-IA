@@ -1,6 +1,6 @@
 {
  "title": "¿Ya no quieres salir de noche?",
- "channel": "¿ERES TÚ?",
+ "channel": "LITERAL YO",
  "fps": 30,
  "durationInFrames": 2244,
  "scenes": [
@@ -1134,7 +1134,7 @@
    "chapter": "¿ERES TÚ?",
    "palette": "brand",
    "art": "soyYo",
-   "text": "¿Te pasa? Escríbeme soy yo en los comentarios, y sígueme para más.",
+   "text": "¿Te pasa? Escríbeme soy yo en los comentarios, y sigue a Literal Yo para más.",
    "minSeconds": 6.0,
    "start": 2064,
    "frames": 180,
@@ -1181,23 +1181,38 @@
     },
     {
      "word": "y",
-     "start": 3.336958,
-     "end": 3.391291
+     "start": 3.347833,
+     "end": 3.402166
     },
     {
-     "word": "sígueme",
-     "start": 3.402166,
-     "end": 3.782582
+     "word": "sigue",
+     "start": 3.413041,
+     "end": 3.684791
+    },
+    {
+     "word": "a",
+     "start": 3.695666,
+     "end": 3.717416
+    },
+    {
+     "word": "Literal",
+     "start": 3.72825,
+     "end": 4.141291
+    },
+    {
+     "word": "Yo",
+     "start": 4.152166,
+     "end": 4.315207
     },
     {
      "word": "para",
-     "start": 3.793458,
-     "end": 3.978249
+     "start": 4.326083,
+     "end": 4.510874
     },
     {
      "word": "más",
-     "start": 3.989125,
-     "end": 4.358708
+     "start": 4.52175,
+     "end": 4.891333
     }
    ],
    "audio": "outro.mp3"

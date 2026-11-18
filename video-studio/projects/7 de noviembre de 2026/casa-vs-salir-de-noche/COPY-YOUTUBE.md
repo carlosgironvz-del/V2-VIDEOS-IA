@@ -1,10 +1,7 @@
 # Copy para publicar · ¿Por qué prefieres quedarte en casa?
 
-## Nombre de canal propuesto: **Ciencia en Pantuflas**
-Lema: *La ciencia de tu día a día*. El logotipo animado del cierre es una pantufla con un átomo en órbita.
-
-Alternativas: **Cerebro en Pijama** · **Explicado con Café** · **El Porqué de Todo** · **Neurona Curiosa**
-(Para cambiar el nombre: `channel` en `storyboard.json`, `CHANNEL` en `src/Film.tsx`, el texto de `Brand` en `src/scenes.tsx` y la frase del outro.)
+## Canal: **Literal Yo**
+Lema: *La ciencia de por qué eres así*. El logo animado del cierre es un globo de diálogo verde lima con una mano levantada ("¡yo!"). Kit completo en `../../18 de noviembre de 2026/marca-literal-yo/MARCA-LITERAL-YO.md`.
 
 ---
 

@@ -3,6 +3,7 @@ import {
   Battery, Blanket, Brain, Bubble, Character, Check, ClockFace, Cross, Heart, House, Molecule, Moon, Person, Phone, Pop,
   Scale, Slipper, Sofa, Stars, T, Zzz, clamp, ease, mix, popAt, seeded, wave,
 } from './art';
+import {LiteralYoLogo} from './logo';
 
 type P = {f: number; d: number; items?: string[]};
 /* Todas las escenas se dibujan en el lienzo 720×1280; zona focal y∈[500,1110]. */
@@ -211,9 +212,8 @@ function Brand({f}: P) {
   const clickAt = 95, pressed = f > clickAt, press = f > clickAt && f < clickAt + 6 ? .92 : 1;
   const cx = mix(620, 360, ease((f - 55) / 35)), cy = mix(1150, 1010, ease((f - 55) / 35));
   return <g>
-    <Pop f={f} at={0} x={360} y={640} dur={20}><circle cx="360" cy="640" r="200" fill="url(#glow)" opacity=".55"/><Slipper f={f} x={360} y={660} s={1.45}/></Pop>
-    <Pop f={f} at={14} x={360} y={860}><T x={360} y={850} size={56} fill="#fff4d9" ls={3}>CIENCIA EN</T><T x={360} y={914} size={64} fill="#d7f36b" ls={4}>PANTUFLAS</T></Pop>
-    <Pop f={f} at={28} x={360} y={950}><T x={360} y={952} size={20} fill="#fff4d9" ls={5} opacity={.85}>LA CIENCIA DE TU DÍA A DÍA</T></Pop>
+    <Pop f={f} at={0} x={360} y={700} dur={20}><circle cx="360" cy="690" r="260" fill="url(#glow)" opacity=".45"/><LiteralYoLogo f={f} x={350} y={720} s={1.05}/></Pop>
+    <Pop f={f} at={28} x={360} y={930}><T x={360} y={932} size={22} fill="#fff4d9" ls={4} opacity={.9}>LA CIENCIA DE POR QUÉ ERES ASÍ</T></Pop>
     <Pop f={f} at={40} x={360} y={1010}><g transform={`translate(360 1010) scale(${press}) translate(-360 -1010)`}>
       <rect x="190" y="978" width="340" height="72" rx="36" fill={pressed ? '#3d3657' : '#e2364f'} stroke="#fff" strokeWidth="4"/>
       <T x={pressed ? 345 : 360} y={1025} size={28} stroke={false}>{pressed ? 'SUSCRITO' : 'SUSCRIBIRME'}</T>

@@ -87,7 +87,7 @@ export function Label({x, y, text, color = '#fff4d8', size = 20}: {x: number; y:
 export type Mood = 'calm' | 'happy' | 'tired' | 'worry' | 'shock' | 'yawn' | 'proud' | 'blissful' | 'sleep';
 export type Pose = 'rest' | 'wave' | 'phone' | 'shrug' | 'cheer' | 'dance' | 'point' | 'mug';
 
-function Hand({x, y, angle, s = 1, open = true}: {x: number; y: number; angle: number; s?: number; open?: boolean}) {
+export function Hand({x, y, angle, s = 1, open = true}: {x: number; y: number; angle: number; s?: number; open?: boolean}) {
   const deg = angle * 180 / Math.PI;
   return <g transform={`translate(${x} ${y}) rotate(${deg}) scale(${s})`}>
     {open ? [-12, -4, 4, 12].map((o, i) => <path key={i} d={`M6 ${o * .9}L${26 - Math.abs(o) * .5} ${o * 1.25}`} stroke="url(#skin)" strokeWidth="8" strokeLinecap="round"/>)

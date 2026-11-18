@@ -1,6 +1,6 @@
 {
   "title": "Short · La batería social existe",
-  "channel": "CIENCIA EN PANTUFLAS",
+  "channel": "LITERAL YO",
   "voice": "es-MX-JorgeNeural",
   "rate": "+15%",
   "maxSeconds": 178,
@@ -27,6 +27,6 @@
     {"id":"short_tip2","act":"Cierre","chapter":"2 · RECARGA ANTES Y DESPUÉS","palette":"cozy","art":"couch","kicker":"TIP 2","text":"Segundo: recarga antes y después. Si vas a convivir mucho, guárdate un rato a solas para llenar la pila."},
     {"ref":"tips_exit"},
     {"ref":"tips_balance"},
-    {"id":"short_outro","act":"Outro","chapter":"¿CÓMO ESTÁ TU BATERÍA?","palette":"brand","art":"brand","text":"Esto fue un pedacito del video completo, que ya está en el canal. Suscríbete a Ciencia en Pantuflas, y dime: ¿cómo está tu batería hoy?","minSeconds":7.5,"sfx":"ding"}
+    {"id":"short_outro","act":"Outro","chapter":"¿CÓMO ESTÁ TU BATERÍA?","palette":"brand","art":"brand","text":"Esto fue un pedacito del video completo, que ya está en el canal. Suscríbete a Literal Yo, y dime: ¿cómo está tu batería hoy?","minSeconds":7.5,"sfx":"ding"}
   ]
 }

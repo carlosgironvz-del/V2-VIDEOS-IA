@@ -1,21 +1,117 @@
 {
   "title": "¿Ya no quieres salir de noche?",
-  "channel": "¿ERES TÚ?",
+  "channel": "LITERAL YO",
   "voice": "es-MX-JorgeNeural",
   "rate": "+15%",
   "scenes": [
-    {"id":"hook","act":"¿Te pasa?","chapter":"VIERNES, 10:00 P.M.","palette":"night","art":"phone","kicker":"¿TE PASA?","text":"¿Últimamente ya no te dan ganas de salir de noche? ¿Te invitan, y lo primero que piensas es en tu cama?","sfx":"ding"},
-    {"id":"not_boring","act":"¿Te pasa?","chapter":"NO TE ESTÁS VOLVIENDO ABURRIDO","palette":"cozy","art":"couch","kicker":"NO ERES ABURRIDO","text":"No te estás volviendo aburrido. Tu cerebro tiene muy buenas razones."},
-    {"id":"battery","act":"Sus razones","chapter":"1 · LA BATERÍA SOCIAL","palette":"crimson","art":"calendar","kicker":"PILA EN ROJO","text":"Uno: tu batería social. Si toda la semana conviviste en el trabajo o en la escuela, el viernes llegas con la pila en rojo.","sfx":"whoosh"},
-    {"id":"night_clock","act":"Sus razones","chapter":"2 · TU RELOJ INTERNO","palette":"purple","art":"melatonin","text":"Dos: tu reloj interno. Cuando oscurece, tu cuerpo suelta melatonina y te empieza a pedir descanso."},
-    {"id":"noise","act":"Sus razones","chapter":"3 · EL RUIDO","palette":"neon","art":"speakerLoud","kicker":"+100 dB","text":"Tres: el ruido. Música a todo volumen, luces y gente gritando. Para tu cerebro, todo eso es trabajo extra."},
-    {"id":"scale_even","act":"Sus razones","chapter":"4 · LA CUENTA SECRETA","palette":"gold","art":"scaleEven","text":"Y cuatro: una cuenta que haces sin darte cuenta. Tu cerebro pesa el esfuerzo de salir contra lo cómodo de quedarte."},
-    {"id":"scale_home","act":"Sus razones","chapter":"LA BALANZA SE INCLINA","palette":"gold","art":"scaleHome","kicker":"GANA LA CASA","text":"Arreglarte, el transporte, gastar… contra tu cobija y tu serie. La balanza se inclina sola."},
-    {"id":"home_safe","act":"Sus razones","chapter":"EN CASA BAJAS LA GUARDIA","palette":"cozy","art":"houseSafe","text":"Además, en casa todo es predecible, y tu cerebro por fin puede bajar la guardia."},
-    {"id":"twist","act":"Pero ojo","chapter":"PERO OJO…","palette":"crimson","art":"graph","kicker":"PERO OJO","text":"Pero ojo: a veces tu cerebro exagera los costos, y se le olvida lo bien que la pasas con tu gente.","sfx":"whoosh"},
-    {"id":"trick","act":"Pero ojo","chapter":"EL TRUCO","palette":"teal","art":"sunClock","text":"El truco: planes más temprano, más chicos, y con permiso de irte cuando se te acabe la pila."},
-    {"id":"not_lazy","act":"Pero ojo","chapter":"NO ES FLOJERA","palette":"cozy","art":"couchProud","kicker":"ES TU CEREBRO","text":"Así que si hoy no sales, no es flojera. Es tu cerebro cuidándote.","sfx":"tada"},
-    {"id":"outro","act":"¿Eres tú?","chapter":"¿ERES TÚ?","palette":"brand","art":"soyYo","text":"¿Te pasa? Escríbeme soy yo en los comentarios, y sígueme para más.","minSeconds":6.0}
+    {
+      "id": "hook",
+      "act": "¿Te pasa?",
+      "chapter": "VIERNES, 10:00 P.M.",
+      "palette": "night",
+      "art": "phone",
+      "kicker": "¿TE PASA?",
+      "text": "¿Últimamente ya no te dan ganas de salir de noche? ¿Te invitan, y lo primero que piensas es en tu cama?",
+      "sfx": "ding"
+    },
+    {
+      "id": "not_boring",
+      "act": "¿Te pasa?",
+      "chapter": "NO TE ESTÁS VOLVIENDO ABURRIDO",
+      "palette": "cozy",
+      "art": "couch",
+      "kicker": "NO ERES ABURRIDO",
+      "text": "No te estás volviendo aburrido. Tu cerebro tiene muy buenas razones."
+    },
+    {
+      "id": "battery",
+      "act": "Sus razones",
+      "chapter": "1 · LA BATERÍA SOCIAL",
+      "palette": "crimson",
+      "art": "calendar",
+      "kicker": "PILA EN ROJO",
+      "text": "Uno: tu batería social. Si toda la semana conviviste en el trabajo o en la escuela, el viernes llegas con la pila en rojo.",
+      "sfx": "whoosh"
+    },
+    {
+      "id": "night_clock",
+      "act": "Sus razones",
+      "chapter": "2 · TU RELOJ INTERNO",
+      "palette": "purple",
+      "art": "melatonin",
+      "text": "Dos: tu reloj interno. Cuando oscurece, tu cuerpo suelta melatonina y te empieza a pedir descanso."
+    },
+    {
+      "id": "noise",
+      "act": "Sus razones",
+      "chapter": "3 · EL RUIDO",
+      "palette": "neon",
+      "art": "speakerLoud",
+      "kicker": "+100 dB",
+      "text": "Tres: el ruido. Música a todo volumen, luces y gente gritando. Para tu cerebro, todo eso es trabajo extra."
+    },
+    {
+      "id": "scale_even",
+      "act": "Sus razones",
+      "chapter": "4 · LA CUENTA SECRETA",
+      "palette": "gold",
+      "art": "scaleEven",
+      "text": "Y cuatro: una cuenta que haces sin darte cuenta. Tu cerebro pesa el esfuerzo de salir contra lo cómodo de quedarte."
+    },
+    {
+      "id": "scale_home",
+      "act": "Sus razones",
+      "chapter": "LA BALANZA SE INCLINA",
+      "palette": "gold",
+      "art": "scaleHome",
+      "kicker": "GANA LA CASA",
+      "text": "Arreglarte, el transporte, gastar… contra tu cobija y tu serie. La balanza se inclina sola."
+    },
+    {
+      "id": "home_safe",
+      "act": "Sus razones",
+      "chapter": "EN CASA BAJAS LA GUARDIA",
+      "palette": "cozy",
+      "art": "houseSafe",
+      "text": "Además, en casa todo es predecible, y tu cerebro por fin puede bajar la guardia."
+    },
+    {
+      "id": "twist",
+      "act": "Pero ojo",
+      "chapter": "PERO OJO…",
+      "palette": "crimson",
+      "art": "graph",
+      "kicker": "PERO OJO",
+      "text": "Pero ojo: a veces tu cerebro exagera los costos, y se le olvida lo bien que la pasas con tu gente.",
+      "sfx": "whoosh"
+    },
+    {
+      "id": "trick",
+      "act": "Pero ojo",
+      "chapter": "EL TRUCO",
+      "palette": "teal",
+      "art": "sunClock",
+      "text": "El truco: planes más temprano, más chicos, y con permiso de irte cuando se te acabe la pila."
+    },
+    {
+      "id": "not_lazy",
+      "act": "Pero ojo",
+      "chapter": "NO ES FLOJERA",
+      "palette": "cozy",
+      "art": "couchProud",
+      "kicker": "ES TU CEREBRO",
+      "text": "Así que si hoy no sales, no es flojera. Es tu cerebro cuidándote.",
+      "sfx": "tada"
+    },
+    {
+      "id": "outro",
+      "act": "¿Eres tú?",
+      "chapter": "¿ERES TÚ?",
+      "palette": "brand",
+      "art": "soyYo",
+      "text": "¿Te pasa? Escríbeme soy yo en los comentarios, y sigue a Literal Yo para más.",
+      "minSeconds": 6.0
+    }
   ],
   "editorialNotes": "Versión TikTok del tema de quedarse en casa, sin narrar experimentos. Respaldo: fatiga social, ritmo circadiano y melatonina, esfuerzo de escucha en ruido, descuento por esfuerzo, predicción e incertidumbre y subestimación del disfrute social. Gancho en pregunta, en segunda persona."
 }

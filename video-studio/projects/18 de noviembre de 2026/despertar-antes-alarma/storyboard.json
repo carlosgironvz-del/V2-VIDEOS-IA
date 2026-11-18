@@ -1,6 +1,6 @@
 {
   "title": "Soy ese que se despierta antes de la alarma",
-  "channel": "¿ERES TÚ?",
+  "channel": "LITERAL YO",
   "voice": "es-MX-JorgeNeural",
   "rate": "+15%",
   "scenes": [
@@ -88,7 +88,7 @@
       "chapter": "¿ERES TÚ?",
       "palette": "brand",
       "art": "soyYo",
-      "text": "¿Tú también eres así? Escríbeme soy yo en los comentarios, y sígueme para más cosas que hace tu cerebro.",
+      "text": "¿Tú también eres así? Escríbeme soy yo en los comentarios, y sigue a Literal Yo para más cosas que hace tu cerebro.",
       "minSeconds": 6.5
     }
   ],

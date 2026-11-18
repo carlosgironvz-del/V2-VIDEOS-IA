@@ -1,8 +1,8 @@
 {
  "title": "Short · La batería social existe",
- "channel": "CIENCIA EN PANTUFLAS",
+ "channel": "LITERAL YO",
  "fps": 30,
- "durationInFrames": 5187,
+ "durationInFrames": 5173,
  "scenes": [
   {
    "id": "short_hook",
@@ -2649,10 +2649,10 @@
    "chapter": "¿CÓMO ESTÁ TU BATERÍA?",
    "palette": "brand",
    "art": "brand",
-   "text": "Esto fue un pedacito del video completo, que ya está en el canal. Suscríbete a Ciencia en Pantuflas, y dime: ¿cómo está tu batería hoy?",
+   "text": "Esto fue un pedacito del video completo, que ya está en el canal. Suscríbete a Literal Yo, y dime: ¿cómo está tu batería hoy?",
    "minSeconds": 7.5,
    "sfx": "ding",
-   "frames": 250,
+   "frames": 236,
    "words": [
     {
      "word": "Esto",
@@ -2722,62 +2722,57 @@
     {
      "word": "Suscríbete",
      "start": 4.119583,
-     "end": 4.706541
+     "end": 4.728291
     },
     {
      "word": "a",
-     "start": 4.717375,
-     "end": 4.739125
+     "start": 4.739125,
+     "end": 4.77175
     },
     {
-     "word": "Ciencia",
-     "start": 4.75,
+     "word": "Literal",
+     "start": 4.782625,
      "end": 5.108708
     },
     {
-     "word": "en",
+     "word": "Yo",
      "start": 5.119583,
-     "end": 5.184791
-    },
-    {
-     "word": "Pantuflas",
-     "start": 5.195666,
-     "end": 5.749999
+     "end": 5.304374
     },
     {
      "word": "y",
-     "start": 5.934791,
-     "end": 5.999999
+     "start": 5.5,
+     "end": 5.565208
     },
     {
      "word": "dime",
-     "start": 6.010875,
-     "end": 6.2935
+     "start": 5.576083,
+     "end": 5.869541
     },
     {
      "word": "cómo",
-     "start": 6.52175,
-     "end": 6.717416
+     "start": 6.086958,
+     "end": 6.282624
     },
     {
      "word": "está",
-     "start": 6.72825,
-     "end": 6.923916
+     "start": 6.293458,
+     "end": 6.489124
     },
     {
      "word": "tu",
-     "start": 6.934791,
-     "end": 7.043499
+     "start": 6.5,
+     "end": 6.608708
     },
     {
      "word": "batería",
-     "start": 7.054333,
-     "end": 7.489124
+     "start": 6.619583,
+     "end": 7.043499
     },
     {
      "word": "hoy",
-     "start": 7.5,
-     "end": 7.75
+     "start": 7.054333,
+     "end": 7.304333
     }
    ],
    "audio": "short_outro.mp3",

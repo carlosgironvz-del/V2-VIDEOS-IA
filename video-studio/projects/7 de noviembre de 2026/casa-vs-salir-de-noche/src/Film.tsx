@@ -10,7 +10,7 @@ export const shortTimeline = shortData;
 type Word = {word: string; start: number; end: number};
 type Scene = {id: string; act: string; chapter: string; palette: string; art: string; text: string; kicker?: string; items?: string[]; sfx?: string; start: number; frames: number; words: Word[]; audio: string};
 const asset = (file: string) => staticFile(file.split('/').pop() || file);
-const CHANNEL = 'CIENCIA EN PANTUFLAS';
+const CHANNEL = 'LITERAL YO';
 
 function Captions({scene, f, horizontal}: {scene: Scene; f: number; horizontal: boolean}) {
   const t = f / 30, words = scene.words || [];

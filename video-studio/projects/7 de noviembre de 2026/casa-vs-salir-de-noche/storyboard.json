@@ -1,6 +1,6 @@
 {
   "title": "¿Por qué prefieres quedarte en casa que salir de noche?",
-  "channel": "CIENCIA EN PANTUFLAS",
+  "channel": "LITERAL YO",
   "voice": "es-MX-JorgeNeural",
   "rate": "+15%",
   "scenes": [
@@ -73,7 +73,7 @@
     {"id":"tips_exit","act":"Cierre","chapter":"3 · RETIRADA CON DIGNIDAD","palette":"purple","art":"door","kicker":"TIP 3","text":"Tercero: date permiso de irte temprano. Llegar, convivir un rato y retirarte con dignidad también cuenta como salir."},
     {"id":"tips_balance","act":"Cierre","chapter":"4 · CUIDA TU ENERGÍA","palette":"teal","art":"balanceHeart","kicker":"TIP 4","text":"Y cuarto: quedarte en casa no es un defecto. Es una forma de cuidar tu energía, siempre que no te aleje de las personas que quieres."},
     {"id":"closing","act":"Cierre","chapter":"NO ES FLOJERA, ES NEUROCIENCIA","palette":"cozy","art":"couchProud","text":"Así que la próxima vez que digas hoy no salgo, ya sabes: no es flojera, es neurociencia. Ponte la pijama con orgullo."},
-    {"id":"outro","act":"Outro","chapter":"¿ERES DE SOFÁ O DE FIESTA?","palette":"brand","art":"brand","text":"Si te gustó, suscríbete a Ciencia en Pantuflas, y cuéntame en los comentarios: ¿tú eres de sofá, o de fiesta?","minSeconds":7.5,"sfx":"ding"}
+    {"id":"outro","act":"Outro","chapter":"¿ERES DE SOFÁ O DE FIESTA?","palette":"brand","art":"brand","text":"Si te gustó, suscríbete a Literal Yo, y cuéntame en los comentarios: ¿tú eres de sofá, o de fiesta?","minSeconds":7.5,"sfx":"ding"}
   ],
   "editorialNotes": "Divulgación con humor sobre introversión (teoría de activación de Eysenck, prueba del limón), recompensa y dopamina (Cohen et al. 2005), fatiga social diferida (Leikas e Ilmarinen 2017), ruido y efecto coctel, ritmo circadiano y cronotipos, descuento por esfuerzo, predicción e incertidumbre, FOMO/JOMO, subestimación del disfrute social (Epley y Schroeder 2014), soledad vs. aislamiento y selectividad socioemocional. Sin prescripción médica; matices explícitos donde la evidencia es mixta. Mismo lenguaje visual que el video de la cafeína: lienzo SVG con degradados radiales, grano, partículas, personaje recurrente y subtítulos karaoke."
 }

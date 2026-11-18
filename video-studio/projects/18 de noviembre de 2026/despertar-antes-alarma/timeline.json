@@ -1,8 +1,8 @@
 {
  "title": "Soy ese que se despierta antes de la alarma",
- "channel": "¿ERES TÚ?",
+ "channel": "LITERAL YO",
  "fps": 30,
- "durationInFrames": 1837,
+ "durationInFrames": 1854,
  "scenes": [
   {
    "id": "hook",
@@ -978,10 +978,10 @@
    "chapter": "¿ERES TÚ?",
    "palette": "brand",
    "art": "soyYo",
-   "text": "¿Tú también eres así? Escríbeme soy yo en los comentarios, y sígueme para más cosas que hace tu cerebro.",
+   "text": "¿Tú también eres así? Escríbeme soy yo en los comentarios, y sigue a Literal Yo para más cosas que hace tu cerebro.",
    "minSeconds": 6.5,
    "start": 1641,
-   "frames": 196,
+   "frames": 213,
    "words": [
     {
      "word": "Tú",
@@ -1039,44 +1039,59 @@
      "end": 3.880416
     },
     {
-     "word": "sígueme",
+     "word": "sigue",
      "start": 3.891291,
-     "end": 4.249999
+     "end": 4.163041
+    },
+    {
+     "word": "a",
+     "start": 4.173916,
+     "end": 4.195666
+    },
+    {
+     "word": "Literal",
+     "start": 4.206541,
+     "end": 4.608707
+    },
+    {
+     "word": "Yo",
+     "start": 4.619583,
+     "end": 4.771749
     },
     {
      "word": "para",
-     "start": 4.260875,
-     "end": 4.456541
+     "start": 4.782625,
+     "end": 4.978291
     },
     {
      "word": "más",
-     "start": 4.467375,
-     "end": 4.673916
+     "start": 4.989125,
+     "end": 5.217375
     },
     {
      "word": "cosas",
-     "start": 4.684791,
-     "end": 5.043499
+     "start": 5.22825,
+     "end": 5.586958
     },
     {
      "word": "que",
-     "start": 5.054333,
-     "end": 5.184749
+     "start": 5.597833,
+     "end": 5.728249
     },
     {
      "word": "hace",
-     "start": 5.195666,
-     "end": 5.402207
+     "start": 5.739125,
+     "end": 5.945666
     },
     {
      "word": "tu",
-     "start": 5.413041,
-     "end": 5.510874
+     "start": 5.956541,
+     "end": 6.054374
     },
     {
      "word": "cerebro",
-     "start": 5.52175,
-     "end": 5.967416
+     "start": 6.065208,
+     "end": 6.521749
     }
    ],
    "audio": "outro.mp3"

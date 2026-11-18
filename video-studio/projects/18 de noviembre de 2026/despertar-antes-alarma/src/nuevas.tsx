@@ -1,5 +1,6 @@
 import React from 'react';
 import {Brain, Character, Check, ClockFace, Cross, Heart, Molecule, Moon, Pop, Stars, T, Zzz, clamp, ease, mix, seeded, wave} from './art';
+import {LiteralYoLogo} from './logo';
 
 /* Escenas nuevas del TikTok "Soy ese que se despierta antes de la alarma" (lienzo 720×1280, zona focal y∈[500,1110]). */
 
@@ -136,10 +137,7 @@ function SoyYo({f}: {f: number}) {
   const clickAt = 110, pressed = f > clickAt, press = f > clickAt && f < clickAt + 6 ? .92 : 1;
   const cx = mix(640, 360, ease((f - 80) / 26)), cy = mix(1180, 1070, ease((f - 80) / 26));
   return <g>
-    <Pop f={f} at={0} x={360} y={640} dur={18}><g transform={`translate(360 640) rotate(${wave(f, .06, 3)})`} filter="url(#shadow)">
-      <path d="M-230 -110Q-230 -140 -200 -140H200Q230 -140 230 -110V60Q230 90 200 90H-40L-110 150L-90 90H-200Q-230 90 -230 60Z" fill="#d7f36b" stroke="#fff" strokeWidth="6"/>
-      <text x="0" y="-2" textAnchor="middle" fontSize="92" fontWeight="900" fill="#321c3a" letterSpacing="2">¡SOY YO!</text>
-    </g></Pop>
+    <Pop f={f} at={0} x={360} y={660} dur={18}><LiteralYoLogo f={f} x={350} y={680} s={1}/></Pop>
     <g transform={`translate(360 ${1000 - wave(f, .05, 4)})`}><Pop f={f} at={20} x={0} y={-130}><g transform="translate(-280 -165) scale(.3)"><Character f={f} mood="happy" pose="wave" cap={false}/></g></Pop></g>
     <Pop f={f} at={30} x={360} y={950}><g filter="url(#shadow)"><rect x="90" y="910" width="540" height="76" rx="38" fill="#fff6e8"/><circle cx="135" cy="948" r="24" fill="#9aa3d9"/><text x="175" y="960" fontSize="32" fontWeight="760" fill="#231a36">{typed}{f % 30 < 15 && f > 40 ? '|' : ''}</text>{typed.length === 6 && <Heart x={590} y={950} s={1.1}/>}</g></Pop>
     <Pop f={f} at={70} x={360} y={1070}><g transform={`translate(360 1070) scale(${press}) translate(-360 -1070)`}><rect x="200" y="1036" width="320" height="70" rx="35" fill={pressed ? '#3d3657' : '#ff3b6f'} stroke="#fff" strokeWidth="4"/><T x={pressed ? 345 : 360} y={1082} size={28} stroke={false}>{pressed ? 'SIGUIENDO' : 'SEGUIR'}</T>{pressed && <Check x={470} y={1070} s={.9} color="#d7f36b"/>}</g></Pop>
