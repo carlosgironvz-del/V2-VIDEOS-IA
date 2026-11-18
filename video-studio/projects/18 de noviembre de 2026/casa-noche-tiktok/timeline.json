@@ -1,0 +1,1206 @@
+{
+ "title": "¿Ya no quieres salir de noche?",
+ "channel": "¿ERES TÚ?",
+ "fps": 30,
+ "durationInFrames": 2244,
+ "scenes": [
+  {
+   "id": "hook",
+   "act": "¿Te pasa?",
+   "chapter": "VIERNES, 10:00 P.M.",
+   "palette": "night",
+   "art": "phone",
+   "kicker": "¿TE PASA?",
+   "text": "¿Últimamente ya no te dan ganas de salir de noche? ¿Te invitan, y lo primero que piensas es en tu cama?",
+   "sfx": "ding",
+   "start": 0,
+   "frames": 189,
+   "words": [
+    {
+     "word": "Últimamente",
+     "start": 0.093458,
+     "end": 0.680416
+    },
+    {
+     "word": "ya",
+     "start": 0.691291,
+     "end": 0.843457
+    },
+    {
+     "word": "no",
+     "start": 0.854333,
+     "end": 0.984749
+    },
+    {
+     "word": "te",
+     "start": 0.995666,
+     "end": 1.093499
+    },
+    {
+     "word": "dan",
+     "start": 1.104333,
+     "end": 1.278249
+    },
+    {
+     "word": "ganas",
+     "start": 1.289125,
+     "end": 1.560875
+    },
+    {
+     "word": "de",
+     "start": 1.57175,
+     "end": 1.636958
+    },
+    {
+     "word": "salir",
+     "start": 1.647833,
+     "end": 1.973916
+    },
+    {
+     "word": "de",
+     "start": 1.984791,
+     "end": 2.071749
+    },
+    {
+     "word": "noche",
+     "start": 2.082625,
+     "end": 2.473916
+    },
+    {
+     "word": "Te",
+     "start": 3.217375,
+     "end": 3.304333
+    },
+    {
+     "word": "invitan",
+     "start": 3.315208,
+     "end": 3.760874
+    },
+    {
+     "word": "y",
+     "start": 3.989125,
+     "end": 4.032583
+    },
+    {
+     "word": "lo",
+     "start": 4.043458,
+     "end": 4.152166
+    },
+    {
+     "word": "primero",
+     "start": 4.163041,
+     "end": 4.489124
+    },
+    {
+     "word": "que",
+     "start": 4.5,
+     "end": 4.608708
+    },
+    {
+     "word": "piensas",
+     "start": 4.619583,
+     "end": 5.021749
+    },
+    {
+     "word": "es",
+     "start": 5.032625,
+     "end": 5.141333
+    },
+    {
+     "word": "en",
+     "start": 5.152166,
+     "end": 5.239124
+    },
+    {
+     "word": "tu",
+     "start": 5.25,
+     "end": 5.347833
+    },
+    {
+     "word": "cama",
+     "start": 5.358708,
+     "end": 5.717416
+    }
+   ],
+   "audio": "hook.mp3"
+  },
+  {
+   "id": "not_boring",
+   "act": "¿Te pasa?",
+   "chapter": "NO TE ESTÁS VOLVIENDO ABURRIDO",
+   "palette": "cozy",
+   "art": "couch",
+   "kicker": "NO ERES ABURRIDO",
+   "text": "No te estás volviendo aburrido. Tu cerebro tiene muy buenas razones.",
+   "start": 189,
+   "frames": 139,
+   "words": [
+    {
+     "word": "No",
+     "start": 0.093458,
+     "end": 0.278249
+    },
+    {
+     "word": "te",
+     "start": 0.289125,
+     "end": 0.376083
+    },
+    {
+     "word": "estás",
+     "start": 0.386958,
+     "end": 0.669583
+    },
+    {
+     "word": "volviendo",
+     "start": 0.680416,
+     "end": 1.049999
+    },
+    {
+     "word": "aburrido",
+     "start": 1.060875,
+     "end": 1.539125
+    },
+    {
+     "word": "Tu",
+     "start": 2.282625,
+     "end": 2.391333
+    },
+    {
+     "word": "cerebro",
+     "start": 2.402166,
+     "end": 2.760874
+    },
+    {
+     "word": "tiene",
+     "start": 2.77175,
+     "end": 3.0
+    },
+    {
+     "word": "muy",
+     "start": 3.010875,
+     "end": 3.206541
+    },
+    {
+     "word": "buenas",
+     "start": 3.217375,
+     "end": 3.521708
+    },
+    {
+     "word": "razones",
+     "start": 3.532625,
+     "end": 4.06525
+    }
+   ],
+   "audio": "not_boring.mp3"
+  },
+  {
+   "id": "battery",
+   "act": "Sus razones",
+   "chapter": "1 · LA BATERÍA SOCIAL",
+   "palette": "crimson",
+   "art": "calendar",
+   "kicker": "PILA EN ROJO",
+   "text": "Uno: tu batería social. Si toda la semana conviviste en el trabajo o en la escuela, el viernes llegas con la pila en rojo.",
+   "sfx": "whoosh",
+   "start": 328,
+   "frames": 232,
+   "words": [
+    {
+     "word": "Uno",
+     "start": 0.093458,
+     "end": 0.419541
+    },
+    {
+     "word": "tu",
+     "start": 0.669583,
+     "end": 0.767416
+    },
+    {
+     "word": "batería",
+     "start": 0.77825,
+     "end": 1.180416
+    },
+    {
+     "word": "social",
+     "start": 1.191291,
+     "end": 1.647832
+    },
+    {
+     "word": "Si",
+     "start": 2.391291,
+     "end": 2.608666
+    },
+    {
+     "word": "toda",
+     "start": 2.619583,
+     "end": 2.826124
+    },
+    {
+     "word": "la",
+     "start": 2.836958,
+     "end": 2.923916
+    },
+    {
+     "word": "semana",
+     "start": 2.934791,
+     "end": 3.271749
+    },
+    {
+     "word": "conviviste",
+     "start": 3.282625,
+     "end": 3.760875
+    },
+    {
+     "word": "en",
+     "start": 3.77175,
+     "end": 3.836958
+    },
+    {
+     "word": "el",
+     "start": 3.847833,
+     "end": 3.945666
+    },
+    {
+     "word": "trabajo",
+     "start": 3.956541,
+     "end": 4.413082
+    },
+    {
+     "word": "o",
+     "start": 4.423916,
+     "end": 4.543499
+    },
+    {
+     "word": "en",
+     "start": 4.554333,
+     "end": 4.619541
+    },
+    {
+     "word": "la",
+     "start": 4.630416,
+     "end": 4.684749
+    },
+    {
+     "word": "escuela",
+     "start": 4.695666,
+     "end": 5.097832
+    },
+    {
+     "word": "el",
+     "start": 5.326083,
+     "end": 5.478249
+    },
+    {
+     "word": "viernes",
+     "start": 5.489125,
+     "end": 5.880416
+    },
+    {
+     "word": "llegas",
+     "start": 5.891291,
+     "end": 6.195624
+    },
+    {
+     "word": "con",
+     "start": 6.206541,
+     "end": 6.347832
+    },
+    {
+     "word": "la",
+     "start": 6.358708,
+     "end": 6.445666
+    },
+    {
+     "word": "pila",
+     "start": 6.456541,
+     "end": 6.717416
+    },
+    {
+     "word": "en",
+     "start": 6.72825,
+     "end": 6.815208
+    },
+    {
+     "word": "rojo",
+     "start": 6.826083,
+     "end": 7.163041
+    }
+   ],
+   "audio": "battery.mp3"
+  },
+  {
+   "id": "night_clock",
+   "act": "Sus razones",
+   "chapter": "2 · TU RELOJ INTERNO",
+   "palette": "purple",
+   "art": "melatonin",
+   "text": "Dos: tu reloj interno. Cuando oscurece, tu cuerpo suelta melatonina y te empieza a pedir descanso.",
+   "start": 560,
+   "frames": 202,
+   "words": [
+    {
+     "word": "Dos",
+     "start": 0.093458,
+     "end": 0.484749
+    },
+    {
+     "word": "tu",
+     "start": 0.723916,
+     "end": 0.832624
+    },
+    {
+     "word": "reloj",
+     "start": 0.843458,
+     "end": 1.147791
+    },
+    {
+     "word": "interno",
+     "start": 1.158708,
+     "end": 1.636958
+    },
+    {
+     "word": "Cuando",
+     "start": 2.380416,
+     "end": 2.619541
+    },
+    {
+     "word": "oscurece",
+     "start": 2.630416,
+     "end": 3.141291
+    },
+    {
+     "word": "tu",
+     "start": 3.380416,
+     "end": 3.478249
+    },
+    {
+     "word": "cuerpo",
+     "start": 3.489125,
+     "end": 3.782583
+    },
+    {
+     "word": "suelta",
+     "start": 3.793458,
+     "end": 4.076083
+    },
+    {
+     "word": "melatonina",
+     "start": 4.086958,
+     "end": 4.641291
+    },
+    {
+     "word": "y",
+     "start": 4.652166,
+     "end": 4.728249
+    },
+    {
+     "word": "te",
+     "start": 4.739125,
+     "end": 4.815208
+    },
+    {
+     "word": "empieza",
+     "start": 4.826083,
+     "end": 5.249999
+    },
+    {
+     "word": "a",
+     "start": 5.260875,
+     "end": 5.304333
+    },
+    {
+     "word": "pedir",
+     "start": 5.315208,
+     "end": 5.608666
+    },
+    {
+     "word": "descanso",
+     "start": 5.619583,
+     "end": 6.163041
+    }
+   ],
+   "audio": "night_clock.mp3"
+  },
+  {
+   "id": "noise",
+   "act": "Sus razones",
+   "chapter": "3 · EL RUIDO",
+   "palette": "neon",
+   "art": "speakerLoud",
+   "kicker": "+100 dB",
+   "text": "Tres: el ruido. Música a todo volumen, luces y gente gritando. Para tu cerebro, todo eso es trabajo extra.",
+   "start": 762,
+   "frames": 253,
+   "words": [
+    {
+     "word": "Tres",
+     "start": 0.093458,
+     "end": 0.484749
+    },
+    {
+     "word": "el",
+     "start": 0.713041,
+     "end": 0.854332
+    },
+    {
+     "word": "ruido",
+     "start": 0.865208,
+     "end": 1.256499
+    },
+    {
+     "word": "Música",
+     "start": 2.0,
+     "end": 2.456541
+    },
+    {
+     "word": "a",
+     "start": 2.467375,
+     "end": 2.521708
+    },
+    {
+     "word": "todo",
+     "start": 2.532625,
+     "end": 2.782625
+    },
+    {
+     "word": "volumen",
+     "start": 2.793458,
+     "end": 3.206499
+    },
+    {
+     "word": "luces",
+     "start": 3.5,
+     "end": 3.826083
+    },
+    {
+     "word": "y",
+     "start": 3.836958,
+     "end": 3.880416
+    },
+    {
+     "word": "gente",
+     "start": 3.891291,
+     "end": 4.184749
+    },
+    {
+     "word": "gritando",
+     "start": 4.195666,
+     "end": 4.728291
+    },
+    {
+     "word": "Para",
+     "start": 5.47825,
+     "end": 5.673916
+    },
+    {
+     "word": "tu",
+     "start": 5.684791,
+     "end": 5.782624
+    },
+    {
+     "word": "cerebro",
+     "start": 5.793458,
+     "end": 6.206499
+    },
+    {
+     "word": "todo",
+     "start": 6.456541,
+     "end": 6.706541
+    },
+    {
+     "word": "eso",
+     "start": 6.717375,
+     "end": 6.93475
+    },
+    {
+     "word": "es",
+     "start": 6.945666,
+     "end": 7.054374
+    },
+    {
+     "word": "trabajo",
+     "start": 7.065208,
+     "end": 7.456499
+    },
+    {
+     "word": "extra",
+     "start": 7.467375,
+     "end": 7.858666
+    }
+   ],
+   "audio": "noise.mp3"
+  },
+  {
+   "id": "scale_even",
+   "act": "Sus razones",
+   "chapter": "4 · LA CUENTA SECRETA",
+   "palette": "gold",
+   "art": "scaleEven",
+   "text": "Y cuatro: una cuenta que haces sin darte cuenta. Tu cerebro pesa el esfuerzo de salir contra lo cómodo de quedarte.",
+   "start": 1015,
+   "frames": 206,
+   "words": [
+    {
+     "word": "Y",
+     "start": 0.093458,
+     "end": 0.213041
+    },
+    {
+     "word": "cuatro",
+     "start": 0.223916,
+     "end": 0.582624
+    },
+    {
+     "word": "una",
+     "start": 0.832625,
+     "end": 0.984791
+    },
+    {
+     "word": "cuenta",
+     "start": 0.995666,
+     "end": 1.299999
+    },
+    {
+     "word": "que",
+     "start": 1.310875,
+     "end": 1.452166
+    },
+    {
+     "word": "haces",
+     "start": 1.463041,
+     "end": 1.702166
+    },
+    {
+     "word": "sin",
+     "start": 1.713041,
+     "end": 1.876082
+    },
+    {
+     "word": "darte",
+     "start": 1.886958,
+     "end": 2.147833
+    },
+    {
+     "word": "cuenta",
+     "start": 2.158708,
+     "end": 2.549999
+    },
+    {
+     "word": "Tu",
+     "start": 3.293458,
+     "end": 3.402166
+    },
+    {
+     "word": "cerebro",
+     "start": 3.413041,
+     "end": 3.771749
+    },
+    {
+     "word": "pesa",
+     "start": 3.782625,
+     "end": 4.02175
+    },
+    {
+     "word": "el",
+     "start": 4.032625,
+     "end": 4.097833
+    },
+    {
+     "word": "esfuerzo",
+     "start": 4.108708,
+     "end": 4.510874
+    },
+    {
+     "word": "de",
+     "start": 4.52175,
+     "end": 4.608708
+    },
+    {
+     "word": "salir",
+     "start": 4.619583,
+     "end": 4.956541
+    },
+    {
+     "word": "contra",
+     "start": 4.967375,
+     "end": 5.260833
+    },
+    {
+     "word": "lo",
+     "start": 5.27175,
+     "end": 5.369583
+    },
+    {
+     "word": "cómodo",
+     "start": 5.380416,
+     "end": 5.717374
+    },
+    {
+     "word": "de",
+     "start": 5.72825,
+     "end": 5.826083
+    },
+    {
+     "word": "quedarte",
+     "start": 5.836958,
+     "end": 6.293499
+    }
+   ],
+   "audio": "scale_even.mp3"
+  },
+  {
+   "id": "scale_home",
+   "act": "Sus razones",
+   "chapter": "LA BALANZA SE INCLINA",
+   "palette": "gold",
+   "art": "scaleHome",
+   "kicker": "GANA LA CASA",
+   "text": "Arreglarte, el transporte, gastar… contra tu cobija y tu serie. La balanza se inclina sola.",
+   "start": 1221,
+   "frames": 202,
+   "words": [
+    {
+     "word": "Arreglarte",
+     "start": 0.093458,
+     "end": 0.691291
+    },
+    {
+     "word": "el",
+     "start": 0.930416,
+     "end": 1.071707
+    },
+    {
+     "word": "transporte",
+     "start": 1.082625,
+     "end": 1.669583
+    },
+    {
+     "word": "gastar",
+     "start": 1.941291,
+     "end": 2.354332
+    },
+    {
+     "word": "contra",
+     "start": 2.560875,
+     "end": 2.8435
+    },
+    {
+     "word": "tu",
+     "start": 2.854333,
+     "end": 2.963041
+    },
+    {
+     "word": "cobija",
+     "start": 2.973916,
+     "end": 3.365207
+    },
+    {
+     "word": "y",
+     "start": 3.376083,
+     "end": 3.441291
+    },
+    {
+     "word": "tu",
+     "start": 3.452166,
+     "end": 3.560874
+    },
+    {
+     "word": "serie",
+     "start": 3.57175,
+     "end": 3.963041
+    },
+    {
+     "word": "La",
+     "start": 4.717375,
+     "end": 4.847791
+    },
+    {
+     "word": "balanza",
+     "start": 4.858708,
+     "end": 5.260874
+    },
+    {
+     "word": "se",
+     "start": 5.27175,
+     "end": 5.391333
+    },
+    {
+     "word": "inclina",
+     "start": 5.402166,
+     "end": 5.793457
+    },
+    {
+     "word": "sola",
+     "start": 5.804333,
+     "end": 6.152166
+    }
+   ],
+   "audio": "scale_home.mp3"
+  },
+  {
+   "id": "home_safe",
+   "act": "Sus razones",
+   "chapter": "EN CASA BAJAS LA GUARDIA",
+   "palette": "cozy",
+   "art": "houseSafe",
+   "text": "Además, en casa todo es predecible, y tu cerebro por fin puede bajar la guardia.",
+   "start": 1423,
+   "frames": 149,
+   "words": [
+    {
+     "word": "Además",
+     "start": 0.093458,
+     "end": 0.582583
+    },
+    {
+     "word": "en",
+     "start": 0.789125,
+     "end": 0.930416
+    },
+    {
+     "word": "casa",
+     "start": 0.941291,
+     "end": 1.223916
+    },
+    {
+     "word": "todo",
+     "start": 1.234791,
+     "end": 1.495666
+    },
+    {
+     "word": "es",
+     "start": 1.506541,
+     "end": 1.615249
+    },
+    {
+     "word": "predecible",
+     "start": 1.626083,
+     "end": 2.158708
+    },
+    {
+     "word": "y",
+     "start": 2.397833,
+     "end": 2.473916
+    },
+    {
+     "word": "tu",
+     "start": 2.484791,
+     "end": 2.582624
+    },
+    {
+     "word": "cerebro",
+     "start": 2.593458,
+     "end": 2.952166
+    },
+    {
+     "word": "por",
+     "start": 2.963041,
+     "end": 3.126082
+    },
+    {
+     "word": "fin",
+     "start": 3.136958,
+     "end": 3.354333
+    },
+    {
+     "word": "puede",
+     "start": 3.365208,
+     "end": 3.582583
+    },
+    {
+     "word": "bajar",
+     "start": 3.593458,
+     "end": 3.886916
+    },
+    {
+     "word": "la",
+     "start": 3.897833,
+     "end": 3.963041
+    },
+    {
+     "word": "guardia",
+     "start": 3.973916,
+     "end": 4.408707
+    }
+   ],
+   "audio": "home_safe.mp3"
+  },
+  {
+   "id": "twist",
+   "act": "Pero ojo",
+   "chapter": "PERO OJO…",
+   "palette": "crimson",
+   "art": "graph",
+   "kicker": "PERO OJO",
+   "text": "Pero ojo: a veces tu cerebro exagera los costos, y se le olvida lo bien que la pasas con tu gente.",
+   "sfx": "whoosh",
+   "start": 1572,
+   "frames": 168,
+   "words": [
+    {
+     "word": "Pero",
+     "start": 0.093458,
+     "end": 0.289124
+    },
+    {
+     "word": "ojo",
+     "start": 0.3,
+     "end": 0.615208
+    },
+    {
+     "word": "a",
+     "start": 0.843458,
+     "end": 0.930416
+    },
+    {
+     "word": "veces",
+     "start": 0.941291,
+     "end": 1.256499
+    },
+    {
+     "word": "tu",
+     "start": 1.267375,
+     "end": 1.354333
+    },
+    {
+     "word": "cerebro",
+     "start": 1.365208,
+     "end": 1.680416
+    },
+    {
+     "word": "exagera",
+     "start": 1.691291,
+     "end": 2.104332
+    },
+    {
+     "word": "los",
+     "start": 2.115208,
+     "end": 2.267374
+    },
+    {
+     "word": "costos",
+     "start": 2.27825,
+     "end": 2.691291
+    },
+    {
+     "word": "y",
+     "start": 2.908708,
+     "end": 2.963041
+    },
+    {
+     "word": "se",
+     "start": 2.973916,
+     "end": 3.104332
+    },
+    {
+     "word": "le",
+     "start": 3.115208,
+     "end": 3.180416
+    },
+    {
+     "word": "olvida",
+     "start": 3.191291,
+     "end": 3.484749
+    },
+    {
+     "word": "lo",
+     "start": 3.495666,
+     "end": 3.604374
+    },
+    {
+     "word": "bien",
+     "start": 3.615208,
+     "end": 3.810874
+    },
+    {
+     "word": "que",
+     "start": 3.82175,
+     "end": 3.930458
+    },
+    {
+     "word": "la",
+     "start": 3.941291,
+     "end": 4.028249
+    },
+    {
+     "word": "pasas",
+     "start": 4.039125,
+     "end": 4.386958
+    },
+    {
+     "word": "con",
+     "start": 4.397833,
+     "end": 4.528249
+    },
+    {
+     "word": "tu",
+     "start": 4.539125,
+     "end": 4.626083
+    },
+    {
+     "word": "gente",
+     "start": 4.636958,
+     "end": 5.028249
+    }
+   ],
+   "audio": "twist.mp3"
+  },
+  {
+   "id": "trick",
+   "act": "Pero ojo",
+   "chapter": "EL TRUCO",
+   "palette": "teal",
+   "art": "sunClock",
+   "text": "El truco: planes más temprano, más chicos, y con permiso de irte cuando se te acabe la pila.",
+   "start": 1740,
+   "frames": 175,
+   "words": [
+    {
+     "word": "El",
+     "start": 0.093458,
+     "end": 0.267374
+    },
+    {
+     "word": "truco",
+     "start": 0.27825,
+     "end": 0.636958
+    },
+    {
+     "word": "planes",
+     "start": 0.886958,
+     "end": 1.223916
+    },
+    {
+     "word": "más",
+     "start": 1.234791,
+     "end": 1.408707
+    },
+    {
+     "word": "temprano",
+     "start": 1.419583,
+     "end": 1.897833
+    },
+    {
+     "word": "más",
+     "start": 2.136958,
+     "end": 2.332624
+    },
+    {
+     "word": "chicos",
+     "start": 2.343458,
+     "end": 2.756499
+    },
+    {
+     "word": "y",
+     "start": 2.973916,
+     "end": 3.049999
+    },
+    {
+     "word": "con",
+     "start": 3.060875,
+     "end": 3.223916
+    },
+    {
+     "word": "permiso",
+     "start": 3.234791,
+     "end": 3.615207
+    },
+    {
+     "word": "de",
+     "start": 3.626083,
+     "end": 3.723916
+    },
+    {
+     "word": "irte",
+     "start": 3.734791,
+     "end": 4.017416
+    },
+    {
+     "word": "cuando",
+     "start": 4.02825,
+     "end": 4.27825
+    },
+    {
+     "word": "se",
+     "start": 4.289125,
+     "end": 4.419541
+    },
+    {
+     "word": "te",
+     "start": 4.430416,
+     "end": 4.495624
+    },
+    {
+     "word": "acabe",
+     "start": 4.506541,
+     "end": 4.789166
+    },
+    {
+     "word": "la",
+     "start": 4.8,
+     "end": 4.897833
+    },
+    {
+     "word": "pila",
+     "start": 4.908708,
+     "end": 5.256541
+    }
+   ],
+   "audio": "trick.mp3"
+  },
+  {
+   "id": "not_lazy",
+   "act": "Pero ojo",
+   "chapter": "NO ES FLOJERA",
+   "palette": "cozy",
+   "art": "couchProud",
+   "kicker": "ES TU CEREBRO",
+   "text": "Así que si hoy no sales, no es flojera. Es tu cerebro cuidándote.",
+   "sfx": "tada",
+   "start": 1915,
+   "frames": 149,
+   "words": [
+    {
+     "word": "Así",
+     "start": 0.093458,
+     "end": 0.365208
+    },
+    {
+     "word": "que",
+     "start": 0.376083,
+     "end": 0.484791
+    },
+    {
+     "word": "si",
+     "start": 0.495666,
+     "end": 0.636957
+    },
+    {
+     "word": "hoy",
+     "start": 0.647833,
+     "end": 0.789124
+    },
+    {
+     "word": "no",
+     "start": 0.8,
+     "end": 0.908708
+    },
+    {
+     "word": "sales",
+     "start": 0.919583,
+     "end": 1.343499
+    },
+    {
+     "word": "no",
+     "start": 1.539125,
+     "end": 1.745666
+    },
+    {
+     "word": "es",
+     "start": 1.756541,
+     "end": 1.876124
+    },
+    {
+     "word": "flojera",
+     "start": 1.886958,
+     "end": 2.354333
+    },
+    {
+     "word": "Es",
+     "start": 3.097833,
+     "end": 3.282624
+    },
+    {
+     "word": "tu",
+     "start": 3.293458,
+     "end": 3.380416
+    },
+    {
+     "word": "cerebro",
+     "start": 3.391291,
+     "end": 3.760874
+    },
+    {
+     "word": "cuidándote",
+     "start": 3.77175,
+     "end": 4.402166
+    }
+   ],
+   "audio": "not_lazy.mp3"
+  },
+  {
+   "id": "outro",
+   "act": "¿Eres tú?",
+   "chapter": "¿ERES TÚ?",
+   "palette": "brand",
+   "art": "soyYo",
+   "text": "¿Te pasa? Escríbeme soy yo en los comentarios, y sígueme para más.",
+   "minSeconds": 6.0,
+   "start": 2064,
+   "frames": 180,
+   "words": [
+    {
+     "word": "Te",
+     "start": 0.093458,
+     "end": 0.202166
+    },
+    {
+     "word": "pasa",
+     "start": 0.213041,
+     "end": 0.615207
+    },
+    {
+     "word": "Escríbeme",
+     "start": 1.358708,
+     "end": 1.880458
+    },
+    {
+     "word": "soy",
+     "start": 1.891291,
+     "end": 2.141291
+    },
+    {
+     "word": "yo",
+     "start": 2.152166,
+     "end": 2.293457
+    },
+    {
+     "word": "en",
+     "start": 2.304333,
+     "end": 2.358666
+    },
+    {
+     "word": "los",
+     "start": 2.369583,
+     "end": 2.478291
+    },
+    {
+     "word": "comentarios",
+     "start": 2.489125,
+     "end": 3.141291
+    },
+    {
+     "word": "y",
+     "start": 3.336958,
+     "end": 3.391291
+    },
+    {
+     "word": "sígueme",
+     "start": 3.402166,
+     "end": 3.782582
+    },
+    {
+     "word": "para",
+     "start": 3.793458,
+     "end": 3.978249
+    },
+    {
+     "word": "más",
+     "start": 3.989125,
+     "end": 4.358708
+    }
+   ],
+   "audio": "outro.mp3"
+  }
+ ]
+}

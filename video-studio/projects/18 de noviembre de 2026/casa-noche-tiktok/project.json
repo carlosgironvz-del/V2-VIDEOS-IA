@@ -1,0 +1,14 @@
+{
+  "id": "casa-noche-tiktok",
+  "title": "¿Ya no quieres salir de noche?",
+  "description": "TikTok de ~1:10: por qué prefieres quedarte en casa, sin experimentos y con gancho en pregunta",
+  "created_at": "2026-11-18T00:00:00",
+  "type": "2d-animation",
+  "fps": 30,
+  "resolution": {
+    "width": 1080,
+    "height": 1920
+  },
+  "author": "VideoStudio Agent",
+  "version": "1.0.0"
+}
