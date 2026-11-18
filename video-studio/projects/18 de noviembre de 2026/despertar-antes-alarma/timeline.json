@@ -2,7 +2,7 @@
  "title": "Soy ese que se despierta antes de la alarma",
  "channel": "¿ERES TÚ?",
  "fps": 30,
- "durationInFrames": 1993,
+ "durationInFrames": 1837,
  "scenes": [
   {
    "id": "hook",
@@ -193,350 +193,241 @@
    "audio": "inner_clock.mp3"
   },
   {
-   "id": "lab",
-   "act": "El experimento",
-   "chapter": "ALEMANIA, 1999",
+   "id": "countdown",
+   "act": "Por qué pasa",
+   "chapter": "LA CUENTA REGRESIVA",
    "palette": "teal",
-   "art": "labBed",
-   "kicker": "1999",
-   "text": "En mil novecientos noventa y nueve, unos científicos en Alemania pusieron a dormir a voluntarios en un laboratorio.",
+   "art": "brainGearsAlarm",
+   "text": "Antes de dormir, tu cerebro registra a qué hora te tienes que levantar. Y mientras duermes, va haciendo la cuenta regresiva.",
    "sfx": "whoosh",
    "start": 329,
-   "frames": 185,
+   "frames": 230,
    "words": [
     {
-     "word": "En",
+     "word": "Antes",
      "start": 0.093458,
-     "end": 0.245624
+     "end": 0.408666
     },
     {
-     "word": "mil",
-     "start": 0.256541,
-     "end": 0.408707
-    },
-    {
-     "word": "novecientos",
+     "word": "de",
      "start": 0.419583,
-     "end": 0.941333
-    },
-    {
-     "word": "noventa",
-     "start": 0.952166,
-     "end": 1.234791
-    },
-    {
-     "word": "y",
-     "start": 1.245666,
-     "end": 1.278291
-    },
-    {
-     "word": "nueve",
-     "start": 1.289125,
-     "end": 1.57175
-    },
-    {
-     "word": "unos",
-     "start": 1.876083,
-     "end": 2.039124
-    },
-    {
-     "word": "científicos",
-     "start": 2.05,
-     "end": 2.647833
-    },
-    {
-     "word": "en",
-     "start": 2.658708,
-     "end": 2.745666
-    },
-    {
-     "word": "Alemania",
-     "start": 2.756541,
-     "end": 3.191332
-    },
-    {
-     "word": "pusieron",
-     "start": 3.202166,
-     "end": 3.636957
-    },
-    {
-     "word": "a",
-     "start": 3.647833,
-     "end": 3.669583
+     "end": 0.473916
     },
     {
      "word": "dormir",
-     "start": 3.680416,
-     "end": 4.017374
-    },
-    {
-     "word": "a",
-     "start": 4.02825,
-     "end": 4.05
-    },
-    {
-     "word": "voluntarios",
-     "start": 4.060875,
-     "end": 4.691291
-    },
-    {
-     "word": "en",
-     "start": 4.702166,
-     "end": 4.832582
-    },
-    {
-     "word": "un",
-     "start": 4.843458,
-     "end": 4.941291
-    },
-    {
-     "word": "laboratorio",
-     "start": 4.952166,
-     "end": 5.604332
-    }
-   ],
-   "audio": "lab.mp3"
-  },
-  {
-   "id": "two_groups",
-   "act": "El experimento",
-   "chapter": "¿A QUÉ HORA TE LEVANTAS?",
-   "palette": "night",
-   "art": "twoClocks",
-   "text": "A algunos les dijeron que los despertarían a las seis de la mañana. A otros, que dormirían hasta las nueve.",
-   "start": 514,
-   "frames": 194,
-   "words": [
-    {
-     "word": "A",
-     "start": 0.093458,
-     "end": 0.223874
-    },
-    {
-     "word": "algunos",
-     "start": 0.234791,
-     "end": 0.604374
-    },
-    {
-     "word": "les",
-     "start": 0.615208,
-     "end": 0.734791
-    },
-    {
-     "word": "dijeron",
-     "start": 0.745666,
-     "end": 1.082624
-    },
-    {
-     "word": "que",
-     "start": 1.093458,
-     "end": 1.202166
-    },
-    {
-     "word": "los",
-     "start": 1.213041,
-     "end": 1.343457
-    },
-    {
-     "word": "despertarían",
-     "start": 1.354333,
-     "end": 1.995624
-    },
-    {
-     "word": "a",
-     "start": 2.006541,
-     "end": 2.049999
-    },
-    {
-     "word": "las",
-     "start": 2.060875,
-     "end": 2.202166
-    },
-    {
-     "word": "seis",
-     "start": 2.213041,
-     "end": 2.430416
-    },
-    {
-     "word": "de",
-     "start": 2.441291,
-     "end": 2.506499
-    },
-    {
-     "word": "la",
-     "start": 2.517375,
-     "end": 2.593458
-    },
-    {
-     "word": "mañana",
-     "start": 2.604333,
-     "end": 3.049999
-    },
-    {
-     "word": "A",
-     "start": 3.793458,
-     "end": 3.945624
-    },
-    {
-     "word": "otros",
-     "start": 3.956541,
-     "end": 4.347832
-    },
-    {
-     "word": "que",
-     "start": 4.554333,
-     "end": 4.652166
-    },
-    {
-     "word": "dormirían",
-     "start": 4.663041,
-     "end": 5.173916
-    },
-    {
-     "word": "hasta",
-     "start": 5.184791,
-     "end": 5.391332
-    },
-    {
-     "word": "las",
-     "start": 5.402166,
-     "end": 5.565207
-    },
-    {
-     "word": "nueve",
-     "start": 5.576083,
-     "end": 5.902166
-    }
-   ],
-   "audio": "two_groups.mp3"
-  },
-  {
-   "id": "acth",
-   "act": "El experimento",
-   "chapter": "EL CUERPO SE ADELANTA",
-   "palette": "crimson",
-   "art": "acth",
-   "kicker": "1 HORA ANTES",
-   "text": "Los que esperaban levantarse temprano empezaron a liberar una hormona, la ACTH, más o menos una hora antes de las seis.",
-   "start": 708,
-   "frames": 213,
-   "words": [
-    {
-     "word": "Los",
-     "start": 0.093458,
-     "end": 0.278249
-    },
-    {
-     "word": "que",
-     "start": 0.289125,
-     "end": 0.376083
-    },
-    {
-     "word": "esperaban",
-     "start": 0.386958,
+     "start": 0.484791,
      "end": 0.832624
     },
     {
-     "word": "levantarse",
-     "start": 0.843458,
-     "end": 1.397791
+     "word": "tu",
+     "start": 1.104333,
+     "end": 1.202166
     },
     {
-     "word": "temprano",
-     "start": 1.408708,
-     "end": 1.810874
+     "word": "cerebro",
+     "start": 1.213041,
+     "end": 1.571749
     },
     {
-     "word": "empezaron",
-     "start": 1.82175,
-     "end": 2.310875
+     "word": "registra",
+     "start": 1.582625,
+     "end": 2.11525
     },
     {
      "word": "a",
-     "start": 2.32175,
-     "end": 2.354375
+     "start": 2.126083,
+     "end": 2.180416
     },
     {
-     "word": "liberar",
-     "start": 2.365208,
-     "end": 2.702166
-    },
-    {
-     "word": "una",
-     "start": 2.713041,
-     "end": 2.854332
-    },
-    {
-     "word": "hormona",
-     "start": 2.865208,
-     "end": 3.234791
-    },
-    {
-     "word": "la",
-     "start": 3.506541,
-     "end": 3.615249
-    },
-    {
-     "word": "ACTH",
-     "start": 3.626083,
-     "end": 4.289124
-    },
-    {
-     "word": "más",
-     "start": 4.57175,
-     "end": 4.778291
-    },
-    {
-     "word": "o",
-     "start": 4.789125,
-     "end": 4.832583
-    },
-    {
-     "word": "menos",
-     "start": 4.843458,
-     "end": 5.158666
-    },
-    {
-     "word": "una",
-     "start": 5.169583,
-     "end": 5.365249
+     "word": "qué",
+     "start": 2.191291,
+     "end": 2.332582
     },
     {
      "word": "hora",
-     "start": 5.376083,
-     "end": 5.647833
+     "start": 2.343458,
+     "end": 2.539124
+    },
+    {
+     "word": "te",
+     "start": 2.55,
+     "end": 2.669583
+    },
+    {
+     "word": "tienes",
+     "start": 2.680416,
+     "end": 2.995624
+    },
+    {
+     "word": "que",
+     "start": 3.006541,
+     "end": 3.104374
+    },
+    {
+     "word": "levantar",
+     "start": 3.115208,
+     "end": 3.647833
+    },
+    {
+     "word": "Y",
+     "start": 4.391291,
+     "end": 4.510874
+    },
+    {
+     "word": "mientras",
+     "start": 4.52175,
+     "end": 4.891333
+    },
+    {
+     "word": "duermes",
+     "start": 4.902166,
+     "end": 5.304332
+    },
+    {
+     "word": "va",
+     "start": 5.543458,
+     "end": 5.673874
+    },
+    {
+     "word": "haciendo",
+     "start": 5.684791,
+     "end": 6.054374
+    },
+    {
+     "word": "la",
+     "start": 6.065208,
+     "end": 6.152166
+    },
+    {
+     "word": "cuenta",
+     "start": 6.163041,
+     "end": 6.456499
+    },
+    {
+     "word": "regresiva",
+     "start": 6.467375,
+     "end": 7.086958
+    }
+   ],
+   "audio": "countdown.mp3"
+  },
+  {
+   "id": "hormone",
+   "act": "Por qué pasa",
+   "chapter": "UN DESPERTADOR QUÍMICO",
+   "palette": "crimson",
+   "art": "acth",
+   "kicker": "1 HORA ANTES",
+   "text": "Más o menos una hora antes de que suene, empieza a soltar una hormona que funciona como despertador químico.",
+   "start": 559,
+   "frames": 182,
+   "words": [
+    {
+     "word": "Más",
+     "start": 0.093458,
+     "end": 0.376083
+    },
+    {
+     "word": "o",
+     "start": 0.386958,
+     "end": 0.430416
+    },
+    {
+     "word": "menos",
+     "start": 0.441291,
+     "end": 0.745624
+    },
+    {
+     "word": "una",
+     "start": 0.756541,
+     "end": 0.930457
+    },
+    {
+     "word": "hora",
+     "start": 0.941291,
+     "end": 1.202166
     },
     {
      "word": "antes",
-     "start": 5.658708,
-     "end": 5.952166
+     "start": 1.213041,
+     "end": 1.495666
     },
     {
      "word": "de",
-     "start": 5.963041,
-     "end": 6.028249
+     "start": 1.506541,
+     "end": 1.582624
     },
     {
-     "word": "las",
-     "start": 6.039125,
-     "end": 6.158708
+     "word": "que",
+     "start": 1.593458,
+     "end": 1.680416
     },
     {
-     "word": "seis",
-     "start": 6.169583,
-     "end": 6.549999
+     "word": "suene",
+     "start": 1.691291,
+     "end": 2.017374
+    },
+    {
+     "word": "empieza",
+     "start": 2.289125,
+     "end": 2.713041
+    },
+    {
+     "word": "a",
+     "start": 2.723916,
+     "end": 2.756541
+    },
+    {
+     "word": "soltar",
+     "start": 2.767375,
+     "end": 3.126083
+    },
+    {
+     "word": "una",
+     "start": 3.136958,
+     "end": 3.278249
+    },
+    {
+     "word": "hormona",
+     "start": 3.289125,
+     "end": 3.636958
+    },
+    {
+     "word": "que",
+     "start": 3.647833,
+     "end": 3.767416
+    },
+    {
+     "word": "funciona",
+     "start": 3.77825,
+     "end": 4.213041
+    },
+    {
+     "word": "como",
+     "start": 4.223916,
+     "end": 4.430457
+    },
+    {
+     "word": "despertador",
+     "start": 4.441291,
+     "end": 5.017374
+    },
+    {
+     "word": "químico",
+     "start": 5.02825,
+     "end": 5.484791
     }
    ],
-   "audio": "acth.mp3"
+   "audio": "hormone.mp3"
   },
   {
    "id": "cortisol",
-   "act": "El experimento",
+   "act": "Por qué pasa",
    "chapter": "EL CAFÉ DE TU CUERPO",
    "palette": "gold",
    "art": "cortisolSun",
    "text": "Esa hormona le avisa a tus glándulas que suelten cortisol, que es como el café natural con el que tu cuerpo arranca el día.",
-   "start": 921,
+   "start": 741,
    "frames": 187,
    "words": [
     {
@@ -663,113 +554,112 @@
    "audio": "cortisol.mp3"
   },
   {
-   "id": "programmed",
+   "id": "light_sleep",
    "act": "Por qué pasa",
-   "chapter": "SE PROGRAMÓ SOLO",
-   "palette": "teal",
-   "art": "brainGearsAlarm",
-   "text": "O sea, tu cerebro escuchó a qué hora te tenías que levantar, y preparó el despertar sin pedirte permiso.",
-   "sfx": "pop",
-   "start": 1108,
-   "frames": 179,
+   "chapter": "EL SUEÑO SE ACLARA",
+   "palette": "night",
+   "art": "hypnogram",
+   "text": "Además, hacia la mañana tu sueño se vuelve más ligero. Así que basta un empujoncito para abrir los ojos.",
+   "start": 928,
+   "frames": 203,
    "words": [
     {
-     "word": "O",
+     "word": "Además",
      "start": 0.093458,
-     "end": 0.180416
+     "end": 0.604333
     },
     {
-     "word": "sea",
-     "start": 0.191291,
-     "end": 0.517374
+     "word": "hacia",
+     "start": 0.810875,
+     "end": 1.039125
+    },
+    {
+     "word": "la",
+     "start": 1.05,
+     "end": 1.126083
+    },
+    {
+     "word": "mañana",
+     "start": 1.136958,
+     "end": 1.506541
     },
     {
      "word": "tu",
-     "start": 0.77825,
-     "end": 0.876083
+     "start": 1.517375,
+     "end": 1.626083
     },
     {
-     "word": "cerebro",
-     "start": 0.886958,
-     "end": 1.202166
+     "word": "sueño",
+     "start": 1.636958,
+     "end": 1.952166
     },
     {
-     "word": "escuchó",
-     "start": 1.213041,
-     "end": 1.615207
+     "word": "se",
+     "start": 1.963041,
+     "end": 2.093457
     },
     {
-     "word": "a",
-     "start": 1.626083,
-     "end": 1.691291
+     "word": "vuelve",
+     "start": 2.104333,
+     "end": 2.365208
     },
     {
-     "word": "qué",
-     "start": 1.702166,
-     "end": 1.832582
+     "word": "más",
+     "start": 2.376083,
+     "end": 2.604333
     },
     {
-     "word": "hora",
-     "start": 1.843458,
-     "end": 2.039124
+     "word": "ligero",
+     "start": 2.615208,
+     "end": 3.017374
     },
     {
-     "word": "te",
-     "start": 2.05,
-     "end": 2.169583
-    },
-    {
-     "word": "tenías",
-     "start": 2.180416,
-     "end": 2.549999
+     "word": "Así",
+     "start": 3.760875,
+     "end": 4.02175
     },
     {
      "word": "que",
-     "start": 2.560875,
-     "end": 2.658708
+     "start": 4.032625,
+     "end": 4.130458
     },
     {
-     "word": "levantar",
-     "start": 2.669583,
-     "end": 3.104374
+     "word": "basta",
+     "start": 4.141291,
+     "end": 4.413041
     },
     {
-     "word": "y",
-     "start": 3.343458,
-     "end": 3.386916
+     "word": "un",
+     "start": 4.423916,
+     "end": 4.521749
     },
     {
-     "word": "preparó",
-     "start": 3.397833,
-     "end": 3.745666
+     "word": "empujoncito",
+     "start": 4.532625,
+     "end": 5.163041
     },
     {
-     "word": "el",
-     "start": 3.756541,
-     "end": 3.810874
+     "word": "para",
+     "start": 5.173916,
+     "end": 5.336957
     },
     {
-     "word": "despertar",
-     "start": 3.82175,
-     "end": 4.3
+     "word": "abrir",
+     "start": 5.347833,
+     "end": 5.608708
     },
     {
-     "word": "sin",
-     "start": 4.310875,
-     "end": 4.484791
+     "word": "los",
+     "start": 5.619583,
+     "end": 5.771749
     },
     {
-     "word": "pedirte",
-     "start": 4.495666,
-     "end": 4.886957
-    },
-    {
-     "word": "permiso",
-     "start": 4.897833,
-     "end": 5.386958
+     "word": "ojos",
+     "start": 5.782625,
+     "end": 6.195666
     }
    ],
-   "audio": "programmed.mp3"
+   "audio": "light_sleep.mp3"
   },
   {
    "id": "routine",
@@ -778,7 +668,7 @@
    "palette": "purple",
    "art": "weekAlarm",
    "text": "Y si te levantas siempre a la misma hora, tu reloj interno se entrena tanto que le gana a la alarma.",
-   "start": 1287,
+   "start": 1131,
    "frames": 164,
    "words": [
     {
@@ -896,7 +786,7 @@
    "palette": "crimson",
    "art": "brainWorry",
    "text": "Ojo: si te pasa porque te preocupa llegar tarde, puede ser estrés, y eso también te roba descanso.",
-   "start": 1451,
+   "start": 1295,
    "frames": 182,
    "words": [
     {
@@ -1001,7 +891,7 @@
    "kicker": "CEREBRO PUNTUAL",
    "text": "Así que, si te ganas a la alarma, no eres raro. Tienes un cerebro puntual.",
    "sfx": "tada",
-   "start": 1633,
+   "start": 1477,
    "frames": 164,
    "words": [
     {
@@ -1090,7 +980,7 @@
    "art": "soyYo",
    "text": "¿Tú también eres así? Escríbeme soy yo en los comentarios, y sígueme para más cosas que hace tu cerebro.",
    "minSeconds": 6.5,
-   "start": 1797,
+   "start": 1641,
    "frames": 196,
    "words": [
     {

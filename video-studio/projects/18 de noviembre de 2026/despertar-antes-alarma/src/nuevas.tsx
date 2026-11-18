@@ -148,9 +148,31 @@ function SoyYo({f}: {f: number}) {
   </g>;
 }
 
+function Hypnogram({f, d}: {f: number; d: number}) {
+  // Profundidad del sueño a lo largo de la noche: ciclos de ~90 min que se vuelven más ligeros hacia la mañana
+  const depth = [0, 3, 3, 2, 1, 0.4, 2, 3, 2, 1, 0.3, 1.6, 2, 1, 0.2, 1, 1.2, 0.5, 0.1, .6, .3, 0];
+  const x0 = 190, x1 = 640, top = 660, step = 92;
+  const xs = depth.map((_, i) => mix(x0, x1, i / (depth.length - 1)));
+  const prog = ease(f / (d * .85)), xEnd = mix(x0, x1, prog);
+  const path = depth.map((v, i) => `${i ? 'L' : 'M'}${xs[i]} ${top + v * step}${i < depth.length - 1 ? `H${xs[i + 1]}` : ''}`).join('');
+  return <g filter="url(#shadow)">
+    <Moon x={150} y={560} r={30} f={f}/>
+    <g transform={`translate(470 ${mix(600, 550, prog)})`} opacity={prog}><circle r="34" fill="url(#gold)"/></g>
+    {['LIGERO', 'MEDIO', 'PROFUNDO'].map((l, i) => <T key={l} x={x0 - 10} y={top + i * step * 1.4 + 8} size={18} anchor="end" opacity={.8}>{l}</T>)}
+    <rect x={x0} y={top - 20} width={x1 - x0} height={3 * step + 40} rx="16" fill="#0d1230" opacity=".45"/>
+    <clipPath id="hypnoClip"><rect x={x0 - 10} y={top - 30} width={xEnd - x0 + 10} height={3 * step + 60}/></clipPath>
+    <path d={path} stroke="#7df2e0" strokeWidth="8" fill="none" strokeLinejoin="round" clipPath="url(#hypnoClip)"/>
+    {['11 P.M.', '2 A.M.', '6 A.M.'].map((l, i) => <T key={l} x={mix(x0, x1, i / 2)} y={top + 3 * step + 70} size={22}>{l}</T>)}
+    <path d={`M${mix(x0, x1, .72)} ${top - 50}H${x1}`} stroke="#ffd36b" strokeWidth="5" strokeDasharray="6 10"/>
+    <T x={mix(x0, x1, .86)} y={top - 62} size={20} fill="#ffd36b">MÁS LIGERO</T>
+    <g transform={`translate(${xEnd - 360 * .22} ${top - 160 + Math.min(...depth.slice(Math.floor(prog * (depth.length - 1)))) * 0})`}><g transform="scale(.22)"><Character f={f} mood={prog > .95 ? 'shock' : 'sleep'}/></g></g>
+  </g>;
+}
+
 export function NewGraphic({kind, f, d}: {kind: string; f: number; d: number}) {
   switch (kind) {
     case 'alarmWake': return <AlarmWake f={f} d={d}/>;
+    case 'hypnogram': return <Hypnogram f={f} d={d}/>;
     case 'labBed': return <LabBed f={f}/>;
     case 'twoClocks': return <TwoClocks f={f}/>;
     case 'acth': return <ACTH f={f} d={d}/>;
