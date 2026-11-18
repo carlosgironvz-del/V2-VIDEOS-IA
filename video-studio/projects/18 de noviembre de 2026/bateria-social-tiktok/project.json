@@ -1,0 +1,11 @@
+{
+  "id": "bateria-social-tiktok",
+  "title": "¿Te pasa? La batería social existe",
+  "description": "TikTok de ~1:10 sobre la batería social, sin experimentos y con gancho en pregunta",
+  "created_at": "2026-11-18T00:00:00",
+  "type": "2d-animation",
+  "fps": 30,
+  "resolution": {"width": 1080, "height": 1920},
+  "author": "VideoStudio Agent",
+  "version": "1.0.0"
+}

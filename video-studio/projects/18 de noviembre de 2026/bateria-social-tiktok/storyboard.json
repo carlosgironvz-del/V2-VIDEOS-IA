@@ -1,0 +1,20 @@
+{
+  "title": "¿Te pasa? La batería social existe",
+  "channel": "LITERAL YO",
+  "voice": "es-MX-JorgeNeural",
+  "rate": "+15%",
+  "scenes": [
+    {"id":"hook","act":"¿Te pasa?","chapter":"DESPUÉS DE LA FIESTA","palette":"neon","art":"disco","kicker":"¿TE PASA?","text":"¿Te pasa que después de una fiesta, o de un día lleno de gente, solo quieres encerrarte en tu cuarto y no hablar con nadie?","sfx":"ding"},
+    {"id":"not_antisocial","act":"¿Te pasa?","chapter":"NO ERES ANTISOCIAL","palette":"crimson","art":"batteryDrain","kicker":"BATERÍA SOCIAL","text":"Tranquilo, no eres antisocial. Lo que pasa es que se te acabó la batería social."},
+    {"id":"brain_work","act":"Por qué pasa","chapter":"CONVIVIR ES TRABAJO","palette":"teal","art":"brainGears","text":"Convivir es trabajo para tu cerebro: leer caras, interpretar tonos, pensar qué decir, y cuidar cómo te ves.","sfx":"whoosh"},
+    {"id":"later","act":"Por qué pasa","chapter":"EL CANSANCIO LLEGA DESPUÉS","palette":"night","art":"characterSleepy","kicker":"HORAS DESPUÉS","text":"Y lo curioso es que el cansancio muchas veces no llega en el momento, sino horas después, cuando ya estás en tu casa."},
+    {"id":"place","act":"Por qué pasa","chapter":"EL LUGAR TAMBIÉN CUENTA","palette":"neon","art":"shout","kicker":"¿¡QUÉ!?","text":"Y el lugar también cuenta: con música a todo volumen y gente gritando, tu cerebro trabaja el doble para entender una sola voz."},
+    {"id":"faster","act":"No a todos igual","chapter":"A ALGUNOS SE LES GASTA MÁS RÁPIDO","palette":"crimson","art":"brainHot","kicker":"SOBRECARGA","text":"A algunas personas se les gasta más rápido: si tu cerebro ya viene con el volumen alto de fábrica, un poco de ruido extra lo satura."},
+    {"id":"others","act":"No a todos igual","chapter":"A OTROS LA FIESTA LOS RECARGA","palette":"neon","art":"party","text":"Otras personas, en cambio, se recargan en la fiesta. Y casi todos estamos en algún punto intermedio."},
+    {"id":"tips_plans","act":"Cómo cuidarla","chapter":"PLANES A TU MEDIDA","palette":"teal","art":"tipBattery","text":"¿Cómo la cuidas? Elige planes a tu medida. Un café o una cena chica también cuentan como salir.","sfx":"whoosh"},
+    {"id":"tips_exit","act":"Cómo cuidarla","chapter":"RECARGA SIN CULPA","palette":"purple","art":"door","text":"Guárdate un rato a solas para recargar, y date permiso de irte temprano sin culpa."},
+    {"id":"not_weird","act":"Cómo cuidarla","chapter":"NO ERES RARO","palette":"cozy","art":"couch","kicker":"CUIDA TU PILA","text":"Necesitar tiempo a solas no te hace raro. Te hace alguien que sabe cuidar su energía."},
+    {"id":"outro","act":"¿Eres tú?","chapter":"¿ERES TÚ?","palette":"brand","art":"soyYo","text":"¿Te pasa? Escríbeme soy yo en los comentarios, y sigue a Literal Yo para más.","minSeconds":6.0}
+  ],
+  "editorialNotes": "Sin narrar experimentos. Respaldo: fatiga social diferida (Leikas e Ilmarinen, 2017), teoría de activación de Eysenck (1967) y esfuerzo de escucha en ruido. Gancho en pregunta, en segunda persona."
+}
