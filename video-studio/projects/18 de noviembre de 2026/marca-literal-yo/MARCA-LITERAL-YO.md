@@ -46,7 +46,7 @@ Ritmo: **3 videos por semana** en TikTok y en Reels (el mismo video en las dos).
 | Día | Qué publicar | Estado |
 |---|---|---|
 | Semana 1 · lunes | **¿Ya no quieres salir de noche?** (1:15) | ✅ Listo |
-| Semana 1 · miércoles | **Soy ese que se despierta antes de la alarma** (1:03) | ✅ Listo |
+| Semana 1 · miércoles | **Soy ese que se despierta antes de la alarma** (1:02) | ✅ Listo |
 | Semana 1 · viernes | **La batería social existe** (2:52) · ideal para viernes en la noche | ✅ Listo (versión con experimentos; se puede rehacer en ~1 min sin ellos) |
 | Semana 2 · lunes | Bajas el volumen de la música para encontrar una dirección | Por producir |
 | Semana 2 · miércoles | Ensayas conversaciones en la regadera | Por producir |
