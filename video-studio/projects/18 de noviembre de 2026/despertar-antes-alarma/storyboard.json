@@ -1,0 +1,20 @@
+{
+  "title": "Soy ese que se despierta antes de la alarma",
+  "channel": "¿ERES TÚ?",
+  "voice": "es-MX-JorgeNeural",
+  "rate": "+15%",
+  "scenes": [
+    {"id":"hook","act":"Soy yo","chapter":"5:59 A.M.","palette":"night","art":"alarmWake","kicker":"¿TÚ TAMBIÉN?","text":"Soy ese que se despierta un minuto antes de que suene la alarma. Y no, no es casualidad.","sfx":"ding"},
+    {"id":"inner_clock","act":"Soy yo","chapter":"UN RELOJ QUE NO DUERME","palette":"purple","art":"brainClock","text":"Tu cerebro tiene un reloj interno que sigue contando las horas, incluso mientras duermes."},
+    {"id":"lab","act":"El experimento","chapter":"ALEMANIA, 1999","palette":"teal","art":"labBed","kicker":"1999","text":"En mil novecientos noventa y nueve, unos científicos en Alemania pusieron a dormir a voluntarios en un laboratorio.","sfx":"whoosh"},
+    {"id":"two_groups","act":"El experimento","chapter":"¿A QUÉ HORA TE LEVANTAS?","palette":"night","art":"twoClocks","text":"A algunos les dijeron que los despertarían a las seis de la mañana. A otros, que dormirían hasta las nueve."},
+    {"id":"acth","act":"El experimento","chapter":"EL CUERPO SE ADELANTA","palette":"crimson","art":"acth","kicker":"1 HORA ANTES","text":"Los que esperaban levantarse temprano empezaron a liberar una hormona, la ACTH, más o menos una hora antes de las seis."},
+    {"id":"cortisol","act":"El experimento","chapter":"EL CAFÉ DE TU CUERPO","palette":"gold","art":"cortisolSun","text":"Esa hormona le avisa a tus glándulas que suelten cortisol, que es como el café natural con el que tu cuerpo arranca el día."},
+    {"id":"programmed","act":"Por qué pasa","chapter":"SE PROGRAMÓ SOLO","palette":"teal","art":"brainGearsAlarm","text":"O sea, tu cerebro escuchó a qué hora te tenías que levantar, y preparó el despertar sin pedirte permiso.","sfx":"pop"},
+    {"id":"routine","act":"Por qué pasa","chapter":"LA RUTINA LO ENTRENA","palette":"purple","art":"weekAlarm","text":"Y si te levantas siempre a la misma hora, tu reloj interno se entrena tanto que le gana a la alarma."},
+    {"id":"stress","act":"Ojo","chapter":"OJO CON EL ESTRÉS","palette":"crimson","art":"brainWorry","text":"Ojo: si te pasa porque te preocupa llegar tarde, puede ser estrés, y eso también te roba descanso."},
+    {"id":"punctual","act":"Ojo","chapter":"NO ERES RARO","palette":"cozy","art":"characterProud","kicker":"CEREBRO PUNTUAL","text":"Así que, si te ganas a la alarma, no eres raro. Tienes un cerebro puntual.","sfx":"tada"},
+    {"id":"outro","act":"¿Eres tú?","chapter":"¿ERES TÚ?","palette":"brand","art":"soyYo","text":"¿Tú también eres así? Escríbeme soy yo en los comentarios, y sígueme para más cosas que hace tu cerebro.","minSeconds":6.5}
+  ],
+  "editorialNotes": "Base científica: Born, Hansen, Marshall, Mölle y Fehm (1999), 'Timing the end of nocturnal sleep', Nature 397:29-30. Quienes esperaban despertar a las 6:00 mostraron un aumento de ACTH desde aproximadamente una hora antes. Matiz final sobre estrés y descanso, sin prescripción médica."
+}

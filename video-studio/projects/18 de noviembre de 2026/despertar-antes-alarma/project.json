@@ -1,0 +1,11 @@
+{
+  "id": "despertar-antes-alarma",
+  "title": "Soy ese que se despierta antes de la alarma",
+  "description": "TikTok de ~1 min: por qué el cerebro se adelanta al despertador (Born et al., Nature 1999)",
+  "created_at": "2026-11-18T00:00:00",
+  "type": "2d-animation",
+  "fps": 30,
+  "resolution": {"width": 1080, "height": 1920},
+  "author": "VideoStudio Agent",
+  "version": "1.0.0"
+}
